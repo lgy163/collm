@@ -1,0 +1,3865 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Taizhou Central Hospital">
+      <data key="d0">organization</data>
+      <data key="d1">Taizhou Central Hospital is the location where the air conditioning group control algorithm is implemented, aimed at optimizing the operation of the air conditioning system.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Air Conditioning Group Control Algorithm">
+      <data key="d0">category</data>
+      <data key="d1">The Air Conditioning Group Control Algorithm is a set of operational strategies designed to manage the intermittent operation, automatic loading and unloading of cooling towers, optimization of cooling pumps, global traffic balance, and remote/local switching in the hospital's air conditioning system.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Tian Su personnel">
+      <data key="d0">person</data>
+      <data key="d1">Tian Su personnel are individuals who can be notified by the air conditioning team members to manually stop the air conditioning operation algorithm or adjust the upper and lower limits of the chilled water return temperature based on the comprehensive situation of outdoor weather, host load rate, and end comfort.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="May, June, September, October">
+      <data key="d0">geo</data>
+      <data key="d1">These months are specified in the text as periods when the intermittent operation of the air conditioning unit is applied, with specific conditions for daytime and nighttime operation.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="July and August">
+      <data key="d0">geo</data>
+      <data key="d1">These months are specified in the text as periods when the intermittent operation of the air conditioning unit is applied, with specific conditions for nighttime operation.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Cooling Tower">
+      <data key="d0">category</data>
+      <data key="d1">The Cooling Tower is a component of the air conditioning system that helps in dissipating heat and is part of the energy consumption analysis.&lt;SEP&gt;The cooling tower is a component of the air conditioning system that is automatically loaded and unloaded based on the cooling water outlet temperature.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19&lt;SEP&gt;chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Cooling Pump">
+      <data key="d0">category</data>
+      <data key="d1">The cooling pump is a component of the air conditioning system whose frequency is adjusted based on the temperature difference between the supply and return water of the cooling water.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Chilled Pump">
+      <data key="d0">category</data>
+      <data key="d1">The chilled pump is a component of the air conditioning system that remains running even when other components like the cooling tower and air conditioning unit stop.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Refrigeration Pump">
+      <data key="d0">category</data>
+      <data key="d1">The refrigeration pump is a component of the air conditioning system whose frequency is automatically adjusted according to the supply pressure of the chilled water main.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Electric Valve">
+      <data key="d0">category</data>
+      <data key="d1">The electric valve is a component in the outpatient building that is automatically adjusted to different opening settings based on the time of day.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Outpatient Building">
+      <data key="d0">location</data>
+      <data key="d1">The outpatient building is a part of the hospital where the electric valve opening is automatically adjusted to ensure comfort levels.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Inpatient Building A">
+      <data key="d0">location</data>
+      <data key="d1">Inpatient Building A is a part of the hospital where the electric valve can be manually closed during the running period of the algorithm.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="Inpatient Building B">
+      <data key="d0">location</data>
+      <data key="d1">Inpatient Building B is a part of the hospital where the electric valve can be manually closed during the running period of the algorithm.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="PLC Control Button">
+      <data key="d0">category</data>
+      <data key="d1">The PLC control button is a component on the display screen that can be used to switch the control from remote to local in case of an abnormal situation.</data>
+      <data key="d2">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </node>
+    <node id="上海轨道交通9号线一期工程">
+      <data key="d0">event</data>
+      <data key="d1">上海轨道交通9号线一期工程包括13个车站、1个控制中心、1个车辆段、2座主变电所和2座区间箱式牵引变电所，线路总长约31km。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="松江新城站">
+      <data key="d0">geo</data>
+      <data key="d1">松江新城站是上海轨道交通9号线一期工程中的一个车站。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="宜山路站">
+      <data key="d0">geo</data>
+      <data key="d1">宜山路站是上海轨道交通9号线一期工程中的一个车站。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="冷水机组群控系统">
+      <data key="d0">category</data>
+      <data key="d1">冷水机组群控系统是一种用于协调多台机房设备运行的系统，通过执行优化程序和预定时间程序，有效节约能源，减少人工操作误差，更安全有效地维护管理空调冷源系统。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="BAS系统">
+      <data key="d0">organization</data>
+      <data key="d1">BAS系统（楼宇自动化系统）是一种用于建筑设备监控和管理的系统，但在计算冷量时存在较大误差。&lt;SEP&gt;BAS系统（楼宇自动化系统）是一种用于建筑设备监控和管理的系统，但在计算冷量时存在较大误差。&lt;SEP&gt;BAS系统（楼宇自动化系统）用于控制冷水机组群控系统的启动和停止，并根据时间表或单独指令进行操作。&lt;SEP&gt;BAS系统（楼宇自动化系统）用于控制冷水机组群控系统的启动和停止，并根据时间表或单独指令进行操作。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d&lt;SEP&gt;chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="冷冻机房">
+      <data key="d0">category</data>
+      <data key="d1">冷冻机房是设置在地下车站站厅层的一端，包含螺杆式冷水机组、冷冻水泵、冷却水泵、冷却塔以及附属阀门设备，为整个车站提供冷源。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="螺杆式冷水机组">
+      <data key="d0">category</data>
+      <data key="d1">螺杆式冷水机组是一种具体的冷水机组类型，配置在洁净空调水系统中，以满足手术室对冷源的需求。&lt;SEP&gt;螺杆式冷水机组是冷冻机房中的主要设备之一，用于提供冷源。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d&lt;SEP&gt;chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="冷冻水泵">
+      <data key="d0">category</data>
+      <data key="d1">Chilled water pumps are part of the initial air conditioning system, with a flow rate of 340 m³/h and a head of 38 mH₂O, and a power consumption of 55 kW.&lt;SEP&gt;冷冻水泵是冷冻机房中的设备之一，用于输送冷冻水。&lt;SEP&gt;冷冻水泵是冷冻机房中的设备之一，用于输送冷冻水。&lt;SEP&gt;冷冻水泵是用于循环冷冻水的泵。&lt;SEP&gt;冷冻水泵是用于循环冷冻水的泵。&lt;SEP&gt;冷冻水泵用于驱动冷冻水的循环，包括启停控制、变频反馈等功能。&lt;SEP&gt;冷冻水泵是初始空调系统和优化方案中的关键设备，用于输送冷冻水。&lt;SEP&gt;冷冻水泵是空调系统中的一个重要部件，用于输送冷冻水，其能耗可以通过变频技术降低。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17&lt;SEP&gt;chunk-d07b7063310bfaeb945be1d1b31d5443&lt;SEP&gt;chunk-2fe2dd1f0790dfa30c2aea2a87c653b5&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987&lt;SEP&gt;chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="冷却水泵">
+      <data key="d0">category</data>
+      <data key="d1">Cooling water pumps are part of the initial air conditioning system, with a flow rate of 630 m³/h and a head of 26 mH₂O, and a power consumption of 55 kW.&lt;SEP&gt;冷却水泵是冷冻机房中的设备之一，用于输送冷却水。&lt;SEP&gt;冷却水泵是冷冻机房中的设备之一，用于输送冷却水。&lt;SEP&gt;冷却水泵是用于循环冷却水的泵。&lt;SEP&gt;冷却水泵是用于循环冷却水的泵。&lt;SEP&gt;冷却水泵是用于循环冷却水的关键设备，确保冷水机组的正常运行。&lt;SEP&gt;冷却水泵用于驱动冷却水的循环，包括启停控制、变频反馈等功能。&lt;SEP&gt;冷却水泵是初始空调系统和优化方案中的关键设备，用于输送冷却水。&lt;SEP&gt;冷却水泵是空调系统中的一个重要部件，用于输送冷却水，其能耗可以通过变频技术降低。&lt;SEP&gt;冷却水泵的主要功能是将冷却水泵送到冷却塔和制冷机组中。共有2个冷却水泵，分别是A、B冷却水泵。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17&lt;SEP&gt;chunk-d07b7063310bfaeb945be1d1b31d5443&lt;SEP&gt;chunk-2fe2dd1f0790dfa30c2aea2a87c653b5&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987&lt;SEP&gt;chunk-40aee537ed39453a6b07ad3197beedbd&lt;SEP&gt;chunk-7c643fdc6ad4556007911b4071bfd55d&lt;SEP&gt;chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="冷却塔">
+      <data key="d0">category</data>
+      <data key="d1">Cooling towers are part of the initial air conditioning system, with a flow rate of 500 m³/h and a power consumption of 18.5 kW.&lt;SEP&gt;冷却塔是冷冻机房中的设备之一，用于散热。&lt;SEP&gt;冷却塔是冷冻机房中的设备之一，用于散热。&lt;SEP&gt;冷却塔是用于冷却水的设备，文中提到自动平衡其运行时间以延长使用寿命。&lt;SEP&gt;冷却塔是用于冷却水的设备，文中提到自动平衡其运行时间以延长使用寿命。&lt;SEP&gt;冷却塔用于冷却冷却水，通过启停控制和电动蝶阀开关控制来实现冷却功能。&lt;SEP&gt;冷却塔是初始空调系统和优化方案中的关键设备，用于冷却循环水。&lt;SEP&gt;冷却塔是辅助设备之一，根据实时需求自动启停，确保设备始终处于最优运行区间。&lt;SEP&gt;冷却塔是商场中央空调系统中的设备之一，根据冷却水出水温度和系统实时负荷自动调整运行数量，以满足高负荷制冷需求并实现能耗控制。&lt;SEP&gt;冷却塔是空调制冷机房中最重要的冷却设备之一，主要功能是将制冷机组产生的热量排放到环境中。共有7个冷却塔，分别是1、2、3、4、5、6、7号冷却塔。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17&lt;SEP&gt;chunk-d07b7063310bfaeb945be1d1b31d5443&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987&lt;SEP&gt;chunk-ff5cd987bab72d2e07c791b3232b05f2&lt;SEP&gt;chunk-2512d61bcbcf02c76ee8a8e9a2b8562d&lt;SEP&gt;chunk-f0f61fbc7cd4abbdb2aa92606ab772f6&lt;SEP&gt;chunk-7c643fdc6ad4556007911b4071bfd55d&lt;SEP&gt;chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="电动水阀">
+      <data key="d0">category</data>
+      <data key="d1">电动水阀是冷冻机房中的设备之一，用于控制水流。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="冷却塔自动补水阀">
+      <data key="d0">category</data>
+      <data key="d1">冷却塔自动补水阀是冷冻机房中的设备之一，用于自动补充冷却塔中的水。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="传感器">
+      <data key="d0">category</data>
+      <data key="d1">传感器是冷冻机房中的设备之一，用于监测各种参数。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="执行器">
+      <data key="d0">category</data>
+      <data key="d1">执行器是冷冻机房中的设备之一，用于执行控制系统发出的指令。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="压差旁通装置">
+      <data key="d0">category</data>
+      <data key="d1">压差旁通装置是冷冻机房中的设备之一，用于维持冷冻水供、回水压差恒定。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="电动调节阀">
+      <data key="d0">technology</data>
+      <data key="d1">电动调节阀是冷冻机房中的设备之一，用于调节水流。&lt;SEP&gt;电动调节阀用于调节冷冻水、冷却水等系统的阀门开度，实现对水流的精确控制。&lt;SEP&gt;电动调节阀用于维持合适的供回水混合比例，优化换热站的运行状态。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d&lt;SEP&gt;chunk-02f20d06f176a3f9a2663a0bf0d14088&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="开关阀">
+      <data key="d0">category</data>
+      <data key="d1">开关阀是冷冻机房中的设备之一，用于控制水流的开关。</data>
+      <data key="d2">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </node>
+    <node id="开利的CCN系统">
+      <data key="d0">organization</data>
+      <data key="d1">开利的CCN系统是一种先进的冷水机组控制系统，具有优化的逻辑运算和节能特性，能够实现精确的冷机台数控制。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="上海轨道交通9号线车站空调系统">
+      <data key="d0">organization</data>
+      <data key="d1">上海轨道交通9号线车站空调系统是负责该线路车站内空气调节的技术系统，涉及多种设备和技术规范。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="CSM令水机组系统管理模块">
+      <data key="d0">technology</data>
+      <data key="d1">CSM令水机组系统管理模块是开利CCN系统的一部分，无需流量监测即可对每台冷机进行全面的监测与管理。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="上海">
+      <data key="d0">geo</data>
+      <data key="d1">上海是中国的一个直辖市，文中提到的上海轨道交通9号线车站空调系统位于此地。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="建筑电气设计规范(JCJ/T16-92)">
+      <data key="d0">category</data>
+      <data key="d1">建筑电气设计规范(JCJ/T16-92)是一种用于指导建筑电气设计的标准。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="智能建筑设计标准(DBJ-08-47-95)">
+      <data key="d0">category</data>
+      <data key="d1">智能建筑设计标准(DBJ-08-47-95)是一种用于指导智能建筑设计的标准。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="采暖通风与空气调节设计规范(GBJ19-87)">
+      <data key="d0">category</data>
+      <data key="d1">采暖通风与空气调节设计规范(GBJ19-87)是一种用于指导采暖、通风和空气调节系统设计的标准。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="电气装置工程施工及验收规范(GBJ232-82)">
+      <data key="d0">category</data>
+      <data key="d1">电气装置工程施工及验收规范(GBJ232-82)是一种用于指导电气装置工程的施工和验收的标准。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="冷水机组">
+      <data key="d0">category</data>
+      <data key="d1">Chilled water units are a key component of the initial air conditioning system, with a cooling capacity of 1,900 kW and a power consumption of 342 kW.&lt;SEP&gt;冷水机组是初始空调系统和优化方案中的关键设备，用于提供冷冻水。&lt;SEP&gt;冷水机组是指用于数据中心冷却的设备，其运行状态和控制流程是本文档的主要讨论对象。&lt;SEP&gt;冷水机组是数据中心空调系统中的关键设备之一，用于制冷。&lt;SEP&gt;冷水机组是用于产生冷冻水以满足冷却需求的设备，文中提到的循环启停顺序是为了延长其使用寿命。&lt;SEP&gt;冷水机组是用于产生冷冻水以满足冷却需求的设备，文中提到的循环启停顺序是为了延长其使用寿命。&lt;SEP&gt;冷水机组是用于提供冷冻水以进行空调冷却的设备。&lt;SEP&gt;冷水机组是用于提供冷冻水以进行空调冷却的设备。&lt;SEP&gt;冷水机组是暖通空调系统中的关键设备，通过增加单台冷水机组供冷面积来解决能耗偏高的问题。&lt;SEP&gt;冷水机组是用于提供冷源的设备，在夏季使用冷冻水为建筑供冷。&lt;SEP&gt;冷水机组是空调系统中的主要耗能部件，其能耗占空调系统总能耗的60%～70%。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d&lt;SEP&gt;chunk-85dfc81383f83f79b3fae137930bda91&lt;SEP&gt;chunk-2fe2dd1f0790dfa30c2aea2a87c653b5&lt;SEP&gt;chunk-d07b7063310bfaeb945be1d1b31d5443&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987&lt;SEP&gt;chunk-245517d8773c7e7944e9ce44a05b45fb&lt;SEP&gt;chunk-ff5cd987bab72d2e07c791b3232b05f2&lt;SEP&gt;chunk-40aee537ed39453a6b07ad3197beedbd&lt;SEP&gt;chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="电动蝶阀">
+      <data key="d0">technology</data>
+      <data key="d1">电动蝶阀是用于控制流体流动的阀门，通过电动方式操作。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </node>
+    <node id="冷却塔风机">
+      <data key="d0">organization</data>
+      <data key="d1">冷却塔风机是用于冷却塔中的风机，帮助散热。&lt;SEP&gt;冷却塔风机是用于调节冷却水回水温度的关键设备，其启停由冷却水回水温度决定。</data>
+      <data key="d2">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d&lt;SEP&gt;chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </node>
+    <node id="山西省工业设备安装集团有限公司">
+      <data key="d0">organization</data>
+      <data key="d1">山西省工业设备安装集团有限公司是该文档的作者单位，负责提供关于冷水机组运行和管理的技术说明。</data>
+      <data key="d2">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </node>
+    <node id="CSM">
+      <data key="d0">organization</data>
+      <data key="d1">CSM是一个系统或组织，负责计算旁通水的百分比，并与工厂预设值进行比较以决定是否启动冷水机组。</data>
+      <data key="d2">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </node>
+    <node id="Reduce Cooling Required-RCR">
+      <data key="d0">event</data>
+      <data key="d1">Reduce Cooling Required-RCR (减少制冷需求) 是一个流程，用于在特定条件下卸载冷水机组，以优化能源使用和设备运行。</data>
+      <data key="d2">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </node>
+    <node id="冷冻机">
+      <data key="d0">category</data>
+      <data key="d1">冷冻机是指用于产生冷冻水以满足冷却需求的设备，文中提到的循环启停顺序是为了延长其使用寿命。</data>
+      <data key="d2">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </node>
+    <node id="旁通水">
+      <data key="d0">category</data>
+      <data key="d1">旁通水是指通过旁通管道绕过某些设备的水流，用于调节系统的温度和流量。</data>
+      <data key="d2">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </node>
+    <node id="工厂预设值">
+      <data key="d0">category</data>
+      <data key="d1">工厂预设值是指预先设定的旁通水百分比，用于比较和决定是否启动冷水机组。</data>
+      <data key="d2">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </node>
+    <node id="水泵">
+      <data key="d0">category</data>
+      <data key="d1">水泵是用于输送水的设备，文中提到自动平衡其运行时间以延长使用寿命。&lt;SEP&gt;水泵是空调系统中的重要组成部分，其运行状况对系统节能至关重要。变频水泵可以降低能耗。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5&lt;SEP&gt;chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </node>
+    <node id="AI摄像头">
+      <data key="d0">technology</data>
+      <data key="d1">AI摄像头用于实时统计人流密度，动态调节冷冻水流量。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="冷却塔集群">
+      <data key="d0">technology</data>
+      <data key="d1">冷却塔集群采用梯度化启停策略和智能预测控制，根据温度和湿度条件调整运行数量和模式。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="气象API数据">
+      <data key="d0">technology</data>
+      <data key="d1">气象API数据用于接入温度预测模型，提前2小时预启动系统。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="双因子认证">
+      <data key="d0">technology</data>
+      <data key="d1">双因子认证（人脸识别+动态口令）用于确保控制指令的安全性。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="区块链存证">
+      <data key="d0">technology</data>
+      <data key="d1">区块链存证用于记录操作日志，确保数据的不可篡改性和安全性。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="春秋季（3-5月,9-11月）">
+      <data key="d0">event</data>
+      <data key="d1">春秋季是主机运行模式的一个特定时间段，具有特定的启动和停机条件。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="夏季（6-8月）">
+      <data key="d0">event</data>
+      <data key="d1">夏季是主机运行模式的另一个特定时间段，具有不同的启动和停机条件。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="高峰时段 (10:00-21:00)">
+      <data key="d0">event</data>
+      <data key="d1">高峰时段是夏季主机运行模式中的一个特定时间段，具有特定的启动和停机条件。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="平峰时段">
+      <data key="d0">event</data>
+      <data key="d1">平峰时段是夏季主机运行模式中的另一个特定时间段，具有不同的启动和停机条件。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="夜间节能时段">
+      <data key="d0">event</data>
+      <data key="d1">夜间节能时段是春秋季主机运行模式中的一个特定时间段，具有特定的启动和停机条件。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="营业时段 (10:00-22:00)">
+      <data key="d0">event</data>
+      <data key="d1">营业时段是春秋季主机运行模式中的一个特定时间段，具有特定的启动和停机条件。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="餐饮区">
+      <data key="d0">location</data>
+      <data key="d1">餐饮区在日间开度为100%，并根据油烟浓度进行补偿，在夜间维持30%的基础循环。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="奢侈品专区">
+      <data key="d0">location</data>
+      <data key="d1">奢侈品专区在日间恒定95%开度，并有温控补偿，夜间由独立VRV系统接管。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="停车场">
+      <data key="d0">location</data>
+      <data key="d1">停车场按CO浓度动态调节阀门开度，在夜间关闭。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="智能分时负荷控制">
+      <data key="d0">category</data>
+      <data key="d1">智能分时负荷控制是一种通过智能化手段在不同时间段和条件下调整系统运行模式的技术，以实现节能和优化。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="冷却塔集群优化">
+      <data key="d0">category</data>
+      <data key="d1">冷却塔集群优化是指通过梯度化启停策略和智能预测控制来优化冷却塔的运行，提高能效。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="人流响应机制">
+      <data key="d0">category</data>
+      <data key="d1">人流响应机制是通过AI摄像头实时统计人流密度，动态调节冷冻水流量，以适应不同的使用需求。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="网络安全防护">
+      <data key="d0">category</data>
+      <data key="d1">网络安全防护包括双因子认证、参数修改限制和操作日志区块链存证等措施，确保系统的安全性和数据的不可篡改性。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="分区阀门控制">
+      <data key="d0">category</data>
+      <data key="d1">分区阀门控制是指根据不同区域的需求，动态调节阀门开度，以实现最佳的能源利用和舒适度。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="温度预测模型">
+      <data key="d0">technology</data>
+      <data key="d1">温度预测模型接入气象API数据，提前2小时预启动系统，以实现智能预测控制。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="独立VRV系统">
+      <data key="d0">technology</data>
+      <data key="d1">独立VRV系统用于夜间接管奢侈品专区的温控，确保该区域的恒定温度。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="注册工程师白名单">
+      <data key="d0">organization</data>
+      <data key="d1">注册工程师白名单是一份允许进行参数修改的工程师名单，确保只有授权人员可以进行关键操作。</data>
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </node>
+    <node id="梯度化启停策略">
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+      <data key="d1">冷却塔集群根据温度和湿度条件，采用梯度化启停策略来优化运行。</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="智能预测控制">
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+      <data key="d1">气象API数据接入温度预测模型，提前2小时预启动系统，实现智能预测控制。</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="参数修改限制">
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+      <data key="d1">网络安全防护通过限制参数修改为注册工程师白名单，确保只有授权人员可以进行关键操作。</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="操作日志区块链存证">
+      <data key="d2">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+      <data key="d1">网络安全防护通过操作日志区块链存证确保数据的不可篡改性和安全性。</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="开利公司">
+      <data key="d0">organization</data>
+      <data key="d1">开利公司是一家专注于空调控制领域，研发了I- VU系统的公司。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="I- VU系统">
+      <data key="d0">category</data>
+      <data key="d1">I- VU系统是一种冷冻机组能源效率管理系统，旨在提供广泛的舒适度、可操作性、空气质量调节和能源管理。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="3台19XR机组">
+      <data key="d0">category</data>
+      <data key="d1">3台19XR机组是数据中心选用的冷水机组，用于提供冷量。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="4台冷冻水泵">
+      <data key="d0">category</data>
+      <data key="d1">4台冷冻水泵是数据中心空调系统的一部分，用于循环冷冻水。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="4台冷却水泵">
+      <data key="d0">category</data>
+      <data key="d1">4台冷却水泵是数据中心空调系统的一部分，用于循环冷却水。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="9台冷却塔风机">
+      <data key="d0">category</data>
+      <data key="d1">9台冷却塔风机是数据中心空调系统的一部分，用于散热。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="1台免费板换">
+      <data key="d0">category</data>
+      <data key="d1">1台免费板换是数据中心空调系统的一部分，用于热交换。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="流量计">
+      <data key="d0">category</data>
+      <data key="d1">流量计是数据中心空调系统中的一种传感器，用于测量流体流量。&lt;SEP&gt;流量计用于测量冷冻水、冷却水等系统的流量，确保系统运行在合适的流量范围内。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="全自动加药装置">
+      <data key="d0">category</data>
+      <data key="d1">全自动加药装置是数据中心空调系统的一部分，用于自动添加化学药品以维护水质。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="真空脱气罐">
+      <data key="d0">category</data>
+      <data key="d1">真空脱气罐是数据中心空调系统的一部分，用于去除水中的气体。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="蓄冷罐">
+      <data key="d0">category</data>
+      <data key="d1">蓄冷罐是数据中心空调系统的一部分，用于储存冷量。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="附属阀门">
+      <data key="d0">category</data>
+      <data key="d1">附属阀门是数据中心空调系统的一部分，用于控制流体流动。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="Chiller SystemManager (CSM)">
+      <data key="d0">category</data>
+      <data key="d1">Chiller SystemManager (CSM) 是一种冷水机组系统管理控制器，用于管理冷水机组。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="I- VUM系列控制器及扩展I/O模块">
+      <data key="d0">category</data>
+      <data key="d1">I- VUM系列控制器及扩展I/O模块用于管理水泵、冷却塔等设备。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </node>
+    <node id="温度传感器">
+      <data key="d0">category</data>
+      <data key="d1">温度传感器是安装在各种管道上的传感器，用于监测温度。&lt;SEP&gt;温度传感器用于测量冷冻水供水温度，是RCR流程中的关键设备。&lt;SEP&gt;温度传感器用于监测冷冻水、冷却水等系统的温度，确保系统运行在合适的温度范围内。</data>
+      <data key="d2">chunk-40aee537ed39453a6b07ad3197beedbd&lt;SEP&gt;chunk-fa4fce9cd9d6b08fe4997cb122e90361&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="压力传感器">
+      <data key="d0">category</data>
+      <data key="d1">压力传感器是安装在各种管道上的传感器，用于监测压力。&lt;SEP&gt;压力传感器用于监测冷冻水、冷却水等系统的压力，确保系统运行在合适的压力范围内。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="管道式流量传感器">
+      <data key="d0">category</data>
+      <data key="d1">管道式流量传感器是安装在各种管道上的传感器，用于监测流体流量。&lt;SEP&gt;管道式流量传感器用于监测冷冻水、冷却水等系统的流量，确保系统运行在合适的流量范围内。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="室外温湿度传感器">
+      <data key="d0">category</data>
+      <data key="d1">室外温湿度传感器是安装在室外的传感器，用于监测温湿度。&lt;SEP&gt;室外温湿度传感器用于监测室外的温度和湿度，为系统控制提供环境数据。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="液位开关">
+      <data key="d0">category</data>
+      <data key="d1">液位开关是安装在各种管道上的传感器，用于监测液位。&lt;SEP&gt;液位开关用于监测液体的液位，确保系统中的液体保持在安全的液位范围内。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="开关型电动蝶阀">
+      <data key="d0">category</data>
+      <data key="d1">开关型电动蝶阀是安装在各种管道上的阀门，用于控制流体流动。&lt;SEP&gt;开关型电动蝶阀用于控制冷冻水、冷却水等系统的阀门开闭，实现对水流的控制。</data>
+      <data key="d2">chunk-fa4fce9cd9d6b08fe4997cb122e90361&lt;SEP&gt;chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="CSM冷水机组系统管理模块">
+      <data key="d0">technology</data>
+      <data key="d1">CSM冷水机组系统管理模块是一种专门为冷水机组设计的管理系统，能够进行全面监测与管理，并通过内部优化程序进行逻辑运算，以决定开启制冷机台数。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="BAS">
+      <data key="d0">technology</data>
+      <data key="d1">BAS（楼宇自动化系统）是一种控制系统，用于计算冷量并控制制冷机台数，但存在较大的误差。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="数据中心冷水机组管理">
+      <data key="d0">category</data>
+      <data key="d1">数据中心冷水机组管理涉及对冷冻水、冷却水等系统的监控和控制，包括温度、压力、流量等多个参数的监测和调节。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="I-VU 系统">
+      <data key="d0">organization</data>
+      <data key="d1">I-VU 系统是一个拥有专为冷水机组研制的CSM冷水机组系统管理模块的技术系统，提供更优良、更节能、更专业的制冷控制。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="冷冻系统">
+      <data key="d0">category</data>
+      <data key="d1">冷冻系统是数据中心冷水机组管理中的一个子系统，负责冷冻水的供应和回流，包括温度、压力、流量等多个参数的监测和调节。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="冷却系统">
+      <data key="d0">category</data>
+      <data key="d1">冷却系统是数据中心冷水机组管理中的一个子系统，负责冷却水的供应和回流，包括温度、压力、流量等多个参数的监测和调节。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="自由冷却系统">
+      <data key="d0">category</data>
+      <data key="d1">自由冷却系统是数据中心冷水机组管理中的一个子系统，利用自然冷源进行冷却，以达到节能效果。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="其他系统">
+      <data key="d0">category</data>
+      <data key="d1">其他系统是指除了冷冻系统、冷却系统和自由冷却系统之外的数据中心冷水机组管理中的其他相关系统。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="流量开关">
+      <data key="d0">technology</data>
+      <data key="d1">流量开关用于监测冷冻水、冷却水等系统的流量，并在流量异常时发出警报。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="自力式压差控制阀">
+      <data key="d0">technology</data>
+      <data key="d1">自力式压差控制阀用于控制冷冻水、冷却水等系统的压差，确保系统运行在合适的压差范围内。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="温度计">
+      <data key="d0">technology</data>
+      <data key="d1">温度计用于测量冷冻水、冷却水等系统的温度，确保系统运行在合适的温度范围内。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="压力表">
+      <data key="d0">technology</data>
+      <data key="d1">压力表用于测量冷冻水、冷却水等系统的压力，确保系统运行在合适的压力范围内。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="风机">
+      <data key="d0">category</data>
+      <data key="d1">风机是空调系统中的重要组成部分，其运行状况对系统节能至关重要。&lt;SEP&gt;风机用于驱动空气流动，包括启停控制、故障报警等功能。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17&lt;SEP&gt;chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="电加热器">
+      <data key="d0">technology</data>
+      <data key="d1">电加热器用于加热冷冻水或冷却水，包括启停控制、故障报警等功能。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="风门">
+      <data key="d0">technology</data>
+      <data key="d1">风门用于控制空气流动的方向和流量，包括开关控制等功能。</data>
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </node>
+    <node id="数据中心">
+      <data key="d0">geo</data>
+      <data key="d1">数据中心位于该办公建筑的三层，同样需要24小时空调运行。&lt;SEP&gt;数据中心是一个设施，其中包含了大量的计算机系统和相关组件，需要通过冷水机组进行冷却以维持正常运行。</data>
+      <data key="d2">chunk-40aee537ed39453a6b07ad3197beedbd&lt;SEP&gt;chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="RCR (Reduce Cooling Required)">
+      <data key="d0">category</data>
+      <data key="d1">RCR 是一种减少制冷需求的过程，涉及冷水机组的卸载流程，当满足特定条件时启动。</data>
+      <data key="d2">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </node>
+    <node id="群控系统">
+      <data key="d0">organization</data>
+      <data key="d1">群控系统是一种控制系统，用于管理和协调数据中心内的冷水机组和其他相关设备的运行。</data>
+      <data key="d2">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </node>
+    <node id="UPS (不间断电源)">
+      <data key="d0">organization</data>
+      <data key="d1">UPS 为群控系统的DDC 设备提供电力支持，确保在市电断电时系统仍能继续运行。</data>
+      <data key="d2">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </node>
+    <node id="柴油发电机">
+      <data key="d0">organization</data>
+      <data key="d1">柴油发电机是在市电断电时为数据中心提供备用电力的设备，确保系统能够恢复运行。</data>
+      <data key="d2">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </node>
+    <node id="电动阀门">
+      <data key="d0">category</data>
+      <data key="d1">电动阀门是商场中央空调系统中的重要组件，用于调节不同区域的空调负荷，确保整个系统的流量均衡和能耗最优化。&lt;SEP&gt;电动阀门是数据中心冷却系统中的重要组件，由DDC控制柜内的UPS电源供电。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d&lt;SEP&gt;chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </node>
+    <node id="DDC (直接数字控制器)">
+      <data key="d0">organization</data>
+      <data key="d1">DDC是一种控制系统，负责管理和协调冷水机组及其相关设备的运行。</data>
+      <data key="d2">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </node>
+    <node id="变频反馈">
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+      <data key="d1">冷冻水泵通过变频反馈实现对水流的精确控制。</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="启停控制">
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+      <data key="d1">风机通过启停控制实现对空气流动的控制。</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="开关控制">
+      <data key="d2">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+      <data key="d1">风门通过开关控制实现对空气流动方向和流量的控制。</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="马鑫龙">
+      <data key="d0">person</data>
+      <data key="d1">马鑫龙是一位从事建筑节能相关研究的工程师，拥有硕士学位。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="深圳市">
+      <data key="d0">geo</data>
+      <data key="d1">深圳市是中国的一个城市，本文中的办公建筑位于该市，且该市的公共建筑能耗较高。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="夏热冬暖地区">
+      <data key="d0">geo</data>
+      <data key="d1">夏热冬暖地区是指常年气温高且湿度大的地区，空调制冷能耗在该地区的建筑能耗中占据较大比例。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="珠江三角洲">
+      <data key="d0">geo</data>
+      <data key="d1">珠江三角洲是夏热冬暖地区的一部分，高层办公建筑数量增长迅猛。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="空调系统节能优化研究">
+      <data key="d0">category</data>
+      <data key="d1">空调系统节能优化研究是指通过改进空调系统的主要设备和技术，以降低能耗和提升系统效率的研究。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="磁悬浮机组＋变频冷冻水系统">
+      <data key="d0">technology</data>
+      <data key="d1">磁悬浮机组＋变频冷冻水系统是一种节能优化方案，旨在降低空调系统的能耗。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="变流量机组＋变频变流量系统">
+      <data key="d0">technology</data>
+      <data key="d1">Variable flow units with variable frequency drive (VFD) systems are part of another proposed retrofitting scheme, which can improve the COP value and reduce energy consumption by 38.61% compared to the initial system.&lt;SEP&gt;变流量机组＋变频变流量系统是一种节能优化方案，旨在降低空调系统的能耗。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff&lt;SEP&gt;chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </node>
+    <node id="Trnsys软件">
+      <data key="d0">technology</data>
+      <data key="d1">Trnsys软件是一种用于模拟和分析建筑能源系统的工具，与磁悬浮冷水机组模块链接。&lt;SEP&gt;Trnsys软件是一种用于模拟和分析空调系统性能的工具，本文使用它来对比分析两种节能优化方案。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff&lt;SEP&gt;chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="伍品">
+      <data key="d0">person</data>
+      <data key="d1">伍品是进行能源审计数据研究的学者之一，分析了深圳市公共建筑的能耗特性。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="王生龙">
+      <data key="d0">person</data>
+      <data key="d1">王生龙是研究冷冻水、冷却水变流量系统对定频及变频离心式冷水机组的制冷系数影响的学者。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="Abo等">
+      <data key="d0">person</data>
+      <data key="d1">Abo等是通过改变制冷机组的台数进行调节，并提出相应节能运行模式的学者。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="王焱国等">
+      <data key="d0">person</data>
+      <data key="d1">王焱国等是以夏热冬冷地区建筑为基准，结合气候和建筑特点，研究节能改造可能方向的学者。</data>
+      <data key="d2">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </node>
+    <node id="该办公建筑">
+      <data key="d0">geo</data>
+      <data key="d1">该办公建筑是讨论的中心，其空调系统和能耗情况被详细分析。</data>
+      <data key="d2">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="中央空调系统">
+      <data key="d0">organization</data>
+      <data key="d1">中央空调系统是该办公建筑中负责提供冷气的关键设施，目前存在效率低下等问题。</data>
+      <data key="d2">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="消防控制室">
+      <data key="d0">geo</data>
+      <data key="d1">消防控制室位于该办公建筑的一层，要求24小时空调运行。</data>
+      <data key="d2">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="东控制中心">
+      <data key="d0">geo</data>
+      <data key="d1">东控制中心位于该办公建筑的16层，也需要24小时空调运行。</data>
+      <data key="d2">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="磁悬浮冷水机组">
+      <data key="d0">technology</data>
+      <data key="d1">磁悬浮冷水机组是一种新型的冷水机组技术，通过磁力作用将转子悬浮于空中，具有高能效、低噪音等优点。</data>
+      <data key="d2">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="变频变流量系统">
+      <data key="d0">technology</data>
+      <data key="d1">变频变流量系统是一种节能改造方案，通过调节流量来提高系统的整体能效。</data>
+      <data key="d2">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="彭明嘉">
+      <data key="d0">person</data>
+      <data key="d1">彭明嘉是使用中央空调系统实测运行数据建立磁悬浮冷水机组数学模型的研究者。</data>
+      <data key="d2">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="VS2012">
+      <data key="d0">technology</data>
+      <data key="d1">VS2012 is the software used for programming the magnetic levitation chiller unit module.&lt;SEP&gt;VS2012是一种编程工具，用于编写磁悬浮冷水机组的数学模型。</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7&lt;SEP&gt;chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </node>
+    <node id="Type200模块">
+      <data key="d0">technology</data>
+      <data key="d1">Type200模块是TRNSYS软件中的一个模块，用于建模磁悬浮冷水主机的运行参数。&lt;SEP&gt;Type200模块是彭明嘉建立的磁悬浮冷水机组数学模型，用于更准确地反映不同负荷下的运行参数。</data>
+      <data key="d2">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </node>
+    <node id="Peng Mingjia">
+      <data key="d0">person</data>
+      <data key="d1">Peng Mingjia is the individual who developed a mathematical model for the magnetic levitation chiller unit using real-world operational data from a central air conditioning system.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Type 200 Magnetic Levitation Chiller Unit">
+      <data key="d0">category</data>
+      <data key="d1">The Type 200 Magnetic Levitation Chiller Unit is a specific module used in the simulation, which is based on a mathematical model developed by Peng Mingjia.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Trnsys Software">
+      <data key="d0">technology</data>
+      <data key="d1">Trnsys Software is a tool used to link and build the simulation model with the magnetic levitation chiller unit module.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Shenzhen">
+      <data key="d0">geo</data>
+      <data key="d1">Shenzhen is the location where the energy consumption and cost calculations are based on the local electricity pricing system.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Centrifugal Chiller Units">
+      <data key="d0">category</data>
+      <data key="d1">Centrifugal Chiller Units are a type of equipment used in the air conditioning system, which can be adjusted through variable frequency and flow rate control.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Variable Flow Units">
+      <data key="d0">category</data>
+      <data key="d1">Variable Flow Units are a type of chiller units that can adjust their cooling capacity continuously and are part of the proposed optimization schemes.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Energy Consumption Comparison">
+      <data key="d0">event</data>
+      <data key="d1">Energy Consumption Comparison is the event where the energy consumption of different air conditioning system configurations is analyzed and compared.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Air Conditioning System Optimization">
+      <data key="d0">event</data>
+      <data key="d1">Air Conditioning System Optimization is the overall process of improving the energy efficiency of the air conditioning system through various modifications and simulations.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Central Air Conditioning System">
+      <data key="d0">category</data>
+      <data key="d1">The Central Air Conditioning System is the main system being analyzed and optimized, with a focus on improving its energy efficiency.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Magnetic Levitation Chiller Unit Module">
+      <data key="d0">technology</data>
+      <data key="d1">The Magnetic Levitation Chiller Unit Module is a specific component used in the simulation, which is based on a mathematical model developed by Peng Mingjia.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Variable Frequency Pump Control Module">
+      <data key="d0">technology</data>
+      <data key="d1">The Variable Frequency Pump Control Module is a component added to the chilled water system to control the flow rate and improve energy efficiency.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Energy Efficiency Improvement">
+      <data key="d0">event</data>
+      <data key="d1">Energy Efficiency Improvement is the goal of the optimization process, aimed at reducing energy consumption and costs through various modifications.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Simulation Model">
+      <data key="d0">technology</data>
+      <data key="d1">The Simulation Model is the tool used to simulate and analyze the performance of different air conditioning system configurations.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Electricity Pricing System">
+      <data key="d0">category</data>
+      <data key="d1">The Electricity Pricing System is the framework used to calculate the operational costs of the air conditioning systems based on the local electricity rates in Shenzhen.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Chilled Water Pumps">
+      <data key="d0">category</data>
+      <data key="d1">The Chilled Water Pumps are components of the air conditioning system that provide circulation for the chilled water, and their energy consumption is a significant part of the analysis.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Cooling Water Pumps">
+      <data key="d0">category</data>
+      <data key="d1">The Cooling Water Pumps are components of the air conditioning system that provide circulation for the cooling water, and their energy consumption is a significant part of the analysis.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Shenzhen Office Building">
+      <data key="d0">geo</data>
+      <data key="d1">Shenzhen Office Building is the location where the air conditioning system optimization is being implemented and analyzed.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Initial System">
+      <data key="d0">category</data>
+      <data key="d1">The Initial System is the original air conditioning system configuration before any modifications or optimizations are made.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Variable Frequency Centrifugal Chiller Units">
+      <data key="d0">category</data>
+      <data key="d1">Variable Frequency Centrifugal Chiller Units are a type of equipment used in the air conditioning system, which can be adjusted through variable frequency and flow rate control.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Optimization Scheme 1">
+      <data key="d0">event</data>
+      <data key="d1">Optimization Scheme 1 involves the use of magnetic levitation chiller units to improve energy efficiency.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Optimization Scheme 2">
+      <data key="d0">event</data>
+      <data key="d1">Optimization Scheme 2 involves the use of variable flow units and variable frequency pumps to improve energy efficiency.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="Energy Consumption Analysis">
+      <data key="d0">event</data>
+      <data key="d1">Energy Consumption Analysis is the process of comparing the energy usage of different air conditioning system configurations to determine the most efficient one.</data>
+      <data key="d2">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </node>
+    <node id="深圳市某办公建筑">
+      <data key="d0">geo</data>
+      <data key="d1">The office building in Shenzhen is the subject of the energy-saving study, where two retrofitting schemes are proposed and analyzed.&lt;SEP&gt;深圳市某办公建筑是研究对象，其全年每小时的冷负荷变化情况被详细记录和分析。</data>
+      <data key="d2">chunk-d07b7063310bfaeb945be1d1b31d5443&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </node>
+    <node id="TRNSYS软件">
+      <data key="d0">technology</data>
+      <data key="d1">TRNSYS software is used for system simulation to evaluate the energy-saving potential of the proposed retrofitting schemes.&lt;SEP&gt;TRNSYS软件用于建立动态仿真模型，评估不同方案的节能效果。</data>
+      <data key="d2">chunk-d07b7063310bfaeb945be1d1b31d5443&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </node>
+    <node id="磁悬浮机组">
+      <data key="d0">technology</data>
+      <data key="d1">Magnetic levitation units are part of one of the proposed retrofitting schemes, which can improve the COP value and reduce energy consumption by 35.54% compared to the initial system.</data>
+      <data key="d2">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </node>
+    <node id="空调系统节能改造">
+      <data key="d0">category</data>
+      <data key="d1">Air conditioning system energy-saving retrofit is the main topic of the text, focusing on improving the efficiency of the cooling system in an office building.</data>
+      <data key="d2">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </node>
+    <node id="初始系统">
+      <data key="d0">technology</data>
+      <data key="d1">The initial air conditioning system is the baseline against which the energy savings of the proposed retrofitting schemes are compared, with a total annual energy consumption of 1,699,135 kWh and an annual operating cost of 1,200,707 yuan.</data>
+      <data key="d2">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </node>
+    <node id="方案一">
+      <data key="d0">technology</data>
+      <data key="d1">Retrofitting scheme one involves the use of magnetic levitation units, which can save 35.54% in energy consumption and reduce the annual operating cost to 773,980 yuan.&lt;SEP&gt;一种优化方案，总能耗为1,100,721 kW·h，电费累计为773,980元。</data>
+      <data key="d2">chunk-d07b7063310bfaeb945be1d1b31d5443&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </node>
+    <node id="方案二">
+      <data key="d0">technology</data>
+      <data key="d1">Retrofitting scheme two involves the use of variable flow units with VFD systems, which can save 38.61% in energy consumption and reduce the annual operating cost to 737,096 yuan.&lt;SEP&gt;另一种优化方案，总能耗为1,022,287 kW·h，电费累计为737,096元。</data>
+      <data key="d2">chunk-d07b7063310bfaeb945be1d1b31d5443&lt;SEP&gt;chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </node>
+    <node id="初始空调系统">
+      <data key="d0">organization</data>
+      <data key="d1">初始空调系统包括冷水机组、冷却塔、冷冻水泵和冷却水泵，运行时间为4月15日至12月15日，采用定流量运行模式。</data>
+      <data key="d2">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </node>
+    <node id="磁悬浮冷水机组系统">
+      <data key="d0">organization</data>
+      <data key="d1">基于TRNSYS软件建立的动态仿真模型，使用Type200模块进行建模，以反映磁悬浮冷水主机在不同负荷下的COP和冷冻水供水温度等运行参数的变化规律。</data>
+      <data key="d2">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </node>
+    <node id="变流量机组、变频变流量系统">
+      <data key="d0">organization</data>
+      <data key="d1">基于TRNSYS软件建立的动态仿真模型，用于评估优化方案的节能效果。</data>
+      <data key="d2">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </node>
+    <node id="赵伟">
+      <data key="d0">person</data>
+      <data key="d1">赵伟是深圳市华阳国际工程设计股份有限公司的高级工程师，从事建筑设备与环境工程勘察设计与研究。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="深圳市华阳国际工程设计股份有限公司">
+      <data key="d0">organization</data>
+      <data key="d1">深圳市华阳国际工程设计股份有限公司是一家位于中国深圳的公司，专注于公共设施和建筑的设计。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="医院建筑暖通空调节能改造设计方法">
+      <data key="d0">category</data>
+      <data key="d1">医院建筑暖通空调节能改造设计方法是指在节能环保的理念下，对医院建筑的暖通空调系统进行节能改造的方法和技术要点。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="广东深圳">
+      <data key="d0">geo</data>
+      <data key="d1">广东深圳是中国的一个城市，本文中的作者赵伟及其所在公司均位于此地。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="医院建筑">
+      <data key="d0">category</data>
+      <data key="d1">医院建筑是指用于医疗、教学和科研的大型综合建筑，其暖通空调系统需要满足特殊的功能要求。&lt;SEP&gt;医院建筑是本文讨论的一个具体应用场景，对暖通空调系统的环境要求较高，需要进行节能环保的设计。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7&lt;SEP&gt;chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="暖通空调系统">
+      <data key="d0">category</data>
+      <data key="d1">暖通空调系统是医院的重要设施之一，负责调节室内环境的温度、湿度和风速等参数。&lt;SEP&gt;暖通空调系统是建筑物中用于调节室内温度和空气质量的重要设施，本文讨论的是医院建筑中的暖通空调系统的节能改造。&lt;SEP&gt;暖通空调系统是指医院建筑内的供暖、通风和空调系统，本文讨论了其节能改造设计。&lt;SEP&gt;暖通空调系统是指用于调节建筑物内部温度和空气质量的设备系统，本文中讨论了其节能设计和改造策略。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088&lt;SEP&gt;chunk-034463a73507742397608ab9fd7f07c7&lt;SEP&gt;chunk-85dfc81383f83f79b3fae137930bda91&lt;SEP&gt;chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="节能环保">
+      <data key="d0">concept</data>
+      <data key="d1">节能环保是指在设计和运行过程中，采取措施减少能源消耗和环境污染的理念。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="低碳原则">
+      <data key="d0">concept</data>
+      <data key="d1">低碳原则是指在设计暖通空调系统时，要尽量减少能源消耗和污染物排放，达到资源利用最低化和环境影响最小化的目标。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="协调设计原则">
+      <data key="d0">concept</data>
+      <data key="d1">协调设计原则是指在设计暖通空调系统时，确保各子系统之间的协调性和整体系统的可靠性，同时考虑与外部环境的协调。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="可循环原则">
+      <data key="d0">concept</data>
+      <data key="d1">可循环原则是指在设计暖通空调系统时，探索资源的可循环利用路径，实现资源的最大化利用。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="能耗分析">
+      <data key="d0">category</data>
+      <data key="d1">能耗分析是对暖通空调系统在节能改造前后的能源消耗情况进行评估，以科学方法指导节能工作。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="技术要点">
+      <data key="d0">category</data>
+      <data key="d1">技术要点是指在进行暖通空调系统节能改造时需要关注的关键技术和方法。</data>
+      <data key="d2">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </node>
+    <node id="某医院">
+      <data key="d0">organization</data>
+      <data key="d1">某医院是一个大型综合建筑，集医疗、教学、科研等功能于一体，建筑面积约30万平方米。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="门急诊">
+      <data key="d0">category</data>
+      <data key="d1">门急诊是医院的一部分，为患者提供初步诊断和紧急治疗服务。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="病房">
+      <data key="d0">category</data>
+      <data key="d1">病房是医院的一部分，用于患者的住院治疗和康复。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="综合办公">
+      <data key="d0">category</data>
+      <data key="d1">综合办公是医院的一部分，用于行政管理和日常办公。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="科研">
+      <data key="d0">category</data>
+      <data key="d1">科研是医院的一部分，用于医学研究和学术活动。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="教学">
+      <data key="d0">category</data>
+      <data key="d1">教学是医院的一部分，用于医学教育和培训。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="大型医技">
+      <data key="d0">category</data>
+      <data key="d1">大型医技是医院的一部分，用于高级医疗技术和设备的使用。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="生活用房及保障用房">
+      <data key="d0">category</data>
+      <data key="d1">生活用房及保障用房是医院的一部分，用于支持医院工作人员的生活需求和后勤保障。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="燃气锅炉">
+      <data key="d0">technology</data>
+      <data key="d1">燃气锅炉是医院内部供暖热源的重要组成部分，包括蒸汽锅炉和热水锅炉，用于提供医用蒸汽和生活热水。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="气候补偿器系统">
+      <data key="d0">technology</data>
+      <data key="d1">气候补偿器系统是一种节能改造方案，通过精准调控策略降低供暖系统的能源消耗量。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="舒适性空调系统">
+      <data key="d0">technology</data>
+      <data key="d1">舒适性空调系统用于调节非手术房间及楼内公共区域的空气，提供新风送风功能。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="手术室洁净空调系统">
+      <data key="d0">technology</data>
+      <data key="d1">手术室洁净空调系统用于调节手术室的环境，确保空间内的正压与洁净度达到要求。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="行政办公楼">
+      <data key="d0">category</data>
+      <data key="d1">行政办公楼是医院的一部分，用于行政管理和日常办公。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="住院病房">
+      <data key="d0">category</data>
+      <data key="d1">住院病房是医院的一部分，用于患者的住院治疗和康复。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="大型医疗设备">
+      <data key="d0">technology</data>
+      <data key="d1">大型医疗设备是医院的重要设施之一，对暖通空调系统的功能稳定性有较高要求。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="信息数据机房">
+      <data key="d0">technology</data>
+      <data key="d1">信息数据机房是医院的重要设施之一，对暖通空调系统的功能稳定性有较高要求。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="循环水泵">
+      <data key="d0">technology</data>
+      <data key="d1">循环水泵是医院供暖系统的一部分，共设置12台，但均未配置变频控制装置。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="新风机组">
+      <data key="d0">technology</data>
+      <data key="d1">新风机组是舒适性空调系统的关键设施，经过温湿度处理以及过滤处理后的新风被送至各房间。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="风机盘管">
+      <data key="d0">technology</data>
+      <data key="d1">风机盘管安装在各房间，布置较为灵活，可单独控制各房间的空气调节。</data>
+      <data key="d2">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </node>
+    <node id="门诊楼">
+      <data key="d0">geo</data>
+      <data key="d1">门诊楼是医院内的一座建筑，其空调系统进行了节能改造。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="水泵变频控制改造设计">
+      <data key="d0">event</data>
+      <data key="d1">水泵变频控制改造设计是针对医院暖通空调系统的节能改造措施之一，通过动态调节水泵流量来减少不必要的能源消耗。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="定风量全空气系统">
+      <data key="d0">category</data>
+      <data key="d1">定风量全空气系统是一种空调系统，用于调节空间内的正压与洁净度。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="分水器">
+      <data key="d0">category</data>
+      <data key="d1">分水器是暖通空调系统中的设备，用于分配冷冻水和热水。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="板式换热器">
+      <data key="d0">category</data>
+      <data key="d1">板式换热器是暖通空调系统中的设备，用于热交换。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="温差控制方式">
+      <data key="d0">category</data>
+      <data key="d1">温差控制方式是通过监测供回水管的温度差来调节水泵流量的一种节能方法。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="压差控制方式">
+      <data key="d0">category</data>
+      <data key="d1">压差控制方式是通过监测水气筒中的压差值来调节水泵流量的一种节能方法。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="防腐漆">
+      <data key="d0">category</data>
+      <data key="d1">防腐漆是涂刷在防护结构上以减少热量损失的材料。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="石棉绳和玻璃纤维布">
+      <data key="d0">category</data>
+      <data key="d1">石棉绳和玻璃纤维布是用于减少热量损失的保护层材料。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="离心式制冷剂">
+      <data key="d0">category</data>
+      <data key="d1">离心式制冷剂是冷水机组中的一种制冷剂类型，其COP（能效比）较高。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </node>
+    <node id="小型燃气锅炉">
+      <data key="d0">category</data>
+      <data key="d1">小型燃气锅炉是一种在非供暖季独立设置的装置，能够适应该阶段的负荷，实现节能降耗的效果。&lt;SEP&gt;小型燃气锅炉是在非供暖季独立设置的设备，用于满足特定负荷需求。</data>
+      <data key="d2">chunk-85dfc81383f83f79b3fae137930bda91&lt;SEP&gt;chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="冷却水水面">
+      <data key="d0">technology</data>
+      <data key="d1">冷却水水面是暖通空调系统中的一个部分，敞开式的形式会导致杂质堆积，引起堵塞问题。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="卞海峰">
+      <data key="d0">person</data>
+      <data key="d1">卞海峰是一位研究绿色建筑暖通空调节能设计的研究者，发表过相关论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="李天天">
+      <data key="d0">person</data>
+      <data key="d1">李天天是一位研究暖通供热工程中的节能技术的研究者，发表过相关论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="汪靖超">
+      <data key="d0">person</data>
+      <data key="d1">汪靖超是一位研究暖通空调节能设计的研究者，与郭丽双、李洪合作发表过相关论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="郭丽双">
+      <data key="d0">person</data>
+      <data key="d1">郭丽双是一位研究暖通空调节能设计的研究者，与汪靖超、李洪合作发表过相关论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="李洪">
+      <data key="d0">person</data>
+      <data key="d1">李洪是一位研究暖通空调节能设计的研究者，与汪靖超、郭丽双合作发表过相关论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="崔冰冰">
+      <data key="d0">person</data>
+      <data key="d1">崔冰冰是一位研究暖通空调工程管理和暖通节能技术的研究者，发表过相关论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="工作人员">
+      <data key="d0">person</data>
+      <data key="d1">工作人员是指参与暖通空调系统节能设计和评估的专业人员，负责分析现有系统的运行状况并寻找改进方法。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="非供暖季">
+      <data key="d0">event</data>
+      <data key="d1">非供暖季是指不需要供暖的季节，在此期间设置小型燃气锅炉可以实现节能降耗的效果。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="冷机组冷凝器">
+      <data key="d0">technology</data>
+      <data key="d1">冷机组冷凝器是冷水机组中的一个重要部件，其正常运行对于系统的能效至关重要。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="绿色建筑暖通空调节能设计研究">
+      <data key="d0">category</data>
+      <data key="d1">绿色建筑暖通空调节能设计研究是指对绿色建筑中暖通空调系统进行节能设计的研究领域。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="暖通供热工程中的节能技术分析">
+      <data key="d0">category</data>
+      <data key="d1">暖通供热工程中的节能技术分析是指对暖通供热系统中的节能技术进行研究和分析的领域。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="暖通空调节能设计分析">
+      <data key="d0">category</data>
+      <data key="d1">暖通空调节能设计分析是指对暖通空调系统进行节能设计的研究和分析领域。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="暖通空调工程管理和暖通节能技术分析">
+      <data key="d0">category</data>
+      <data key="d1">暖通空调工程管理和暖通节能技术分析是指对暖通空调工程管理及节能技术进行研究和分析的领域。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="房地产世界">
+      <data key="d0">organization</data>
+      <data key="d1">房地产世界是一本期刊，发表了关于绿色建筑暖通空调节能设计研究的论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="集成电路应用">
+      <data key="d0">organization</data>
+      <data key="d1">集成电路应用是一本期刊，发表了关于暖通供热工程中的节能技术分析的论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="工程建设与设计">
+      <data key="d0">organization</data>
+      <data key="d1">工程建设与设计是一本期刊，发表了多篇关于暖通空调节能设计和工程管理的论文。</data>
+      <data key="d2">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </node>
+    <node id="核心办公区">
+      <data key="d0">geo</data>
+      <data key="d1">核心办公区是指主要工作区域，通过区域性电动阀实现差异化温度控制。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="辅助区域">
+      <data key="d0">geo</data>
+      <data key="d1">辅助区域是指除核心办公区外的其他区域，同样通过区域性电动阀实现差异化温度控制。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="冷却泵">
+      <data key="d0">category</data>
+      <data key="d1">冷却泵是商场中央空调系统中的设备之一，根据冷却水供回水温差动态调整频率，确保水流平衡与设备高效运行。&lt;SEP&gt;冷却泵是辅助设备之一，根据出水温度与预测负荷自动调节运行台数，确保设备负荷与能耗最优匹配。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d&lt;SEP&gt;chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="冷冻泵">
+      <data key="d0">category</data>
+      <data key="d1">冷冻泵是商场中央空调系统中的设备之一，根据冷冻水总管供水压力自动调节频率，保持最小供水压力，保障全局流量均衡。&lt;SEP&gt;冷冻泵采用变频器控制，根据供回水温差和系统压力自动调节运行频率，保证流量平衡。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d&lt;SEP&gt;chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="自诊断模块">
+      <data key="d0">organization</data>
+      <data key="d1">自诊断模块用于实时监测设备异常、流量失衡等情况，并通过中央平台即时报警、记录异常数据，为维护提供决策支持。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="中央平台">
+      <data key="d0">organization</data>
+      <data key="d1">中央平台用于接收自诊断模块的报警信息和记录异常数据，支持远程监控与集中管理。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="本地PLC控制模式">
+      <data key="d0">organization</data>
+      <data key="d1">本地PLC控制模式在发生网络故障或异常情况时启用，保障设备稳定运行。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="工作时段">
+      <data key="d0">event</data>
+      <data key="d1">工作时段是指8:00到18:00的时间段，在此期间进行智能调控和动态负载平衡。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="非工作时段">
+      <data key="d0">event</data>
+      <data key="d1">非工作时段是指18:00到次日8:00的时间段，在此期间设备以低负荷模式运行。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="预测启停控制">
+      <data key="d0">category</data>
+      <data key="d1">预测启停控制结合实时温湿度、人员密度和天气预报数据，提前调整制冷/制热负荷。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="动态负载平衡">
+      <data key="d0">category</data>
+      <data key="d1">动态负载平衡确保各主机与辅助设备按实时需求自动启停，使设备始终处于最优运行区间。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="精细分区管理">
+      <data key="d0">category</data>
+      <data key="d1">精细分区管理对核心办公区与辅助区域设置不同的温度目标，通过区域性电动阀实现差异化控制。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="低负荷运行模式">
+      <data key="d0">category</data>
+      <data key="d1">低负荷运行模式在非工作时段维持基础环境，防止室内温湿度剧烈波动。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="预冷/预热策略">
+      <data key="d0">category</data>
+      <data key="d1">预冷/预热策略在次日开工前1小时逐步恢复工作时段温度，降低能耗及设备冲击。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="负荷预测模型">
+      <data key="d0">category</data>
+      <data key="d1">负荷预测模型基于历史数据、实时监控和天气预报构建短时预测模型，提前计算各区域制冷/制热需求。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="智能加减载策略">
+      <data key="d0">category</data>
+      <data key="d1">智能加减载策略根据出水温度与预测负荷自动调节冷却塔、冷却泵等辅助设备的运行台数。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="变频调控">
+      <data key="d0">category</data>
+      <data key="d1">变频调控通过变频器控制冷却泵与冷冻泵，根据供回水温差和系统压力自动调节运行频率，保证流量平衡。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="智能故障监测">
+      <data key="d0">category</data>
+      <data key="d1">智能故障监测内置自诊断模块，实时监测设备异常、流量失衡等情况，并通过中央平台即时报警、记录异常数据。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="能耗动态监控">
+      <data key="d0">category</data>
+      <data key="d1">能耗动态监控全程记录各设备能耗数据，结合实时负荷信息生成能耗分析报告，辅助优化控制策略。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="预测性维护">
+      <data key="d0">category</data>
+      <data key="d1">预测性维护利用设备运行数据，结合故障自诊断结果进行预警，提前安排巡检与维护，减少意外停机风险。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="智能调度与环境保护">
+      <data key="d0">category</data>
+      <data key="d1">智能调度与环境保护实施能耗平衡调度策略，降低峰值负荷，优化能效比，同时减少环境热排放。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="应急预案与本地控制">
+      <data key="d0">category</data>
+      <data key="d1">应急预案与本地控制支持远程监控与集中管理，在发生网络故障或异常情况时切换至本地PLC控制模式，保障设备稳定运行。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="应急断流措施">
+      <data key="d0">category</data>
+      <data key="d1">应急断流措施在局部系统出现连续异常时，通过现场操作面板实现局部断流、手动调节电动阀，确保安全并减少潜在损失。</data>
+      <data key="d2">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </node>
+    <node id="上海某商场">
+      <data key="d0">organization</data>
+      <data key="d1">上海某商场是一个商业场所，采用智能调控策略管理其中央空调系统，以确保室内环境舒适与能耗优化。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </node>
+    <node id="中央控制平台">
+      <data key="d0">organization</data>
+      <data key="d1">中央控制平台负责实时采集各设备运行数据和现场环境指标，自动进行调控策略调整，并生成预警提示。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </node>
+    <node id="PLC 本地控制模式">
+      <data key="d0">category</data>
+      <data key="d1">PLC 本地控制模式是一种在远程系统出现异常或需临时调整策略时，现场操作人员通过操作面板将系统切换至的控制模式，以保证设备持续稳定运行。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </node>
+    <node id="安全模式">
+      <data key="d0">category</data>
+      <data key="d1">安全模式是在检测到连续故障超过15分钟或系统异常负荷时自动切换的一种模式，启动报警并通知现场维护人员介入处理。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </node>
+    <node id="空调主机">
+      <data key="d0">category</data>
+      <data key="d1">空调主机是商场中央空调系统中的主要设备，根据不同的季节和客流变化进行智能调控，确保室内环境舒适与能耗优化。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </node>
+    <node id="主通道及中庭区域">
+      <data key="d0">geo</data>
+      <data key="d1">主通道及中庭区域是商场内的重要区域，在工作时段和夜间及低客流时段通过电动阀门开度设定来调节空调负荷。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </node>
+    <node id="辅助及边缘区域">
+      <data key="d0">geo</data>
+      <data key="d1">辅助及边缘区域是商场内的次要区域，根据实时温湿度及人流监控数据自动调节电动阀门开度，实现区域温度均衡。</data>
+      <data key="d2">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </node>
+    <node id="中国">
+      <data key="d0">geo</data>
+      <data key="d1">中国是中央空调市场的重要地区，2014年中央空调年销量达到705亿元。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="梁采华">
+      <data key="d0">person</data>
+      <data key="d1">梁采华是一位研究人员，研究变冷冻水流量对冷水机组的制冷量和效率的影响。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="李苏泷">
+      <data key="d0">person</data>
+      <data key="d1">李苏泷是一位研究人员，指出冷却水变流量虽然对冷水机组的效率有一定负面影响，但对水泵节能有正面影响。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="Fong K.F.">
+      <data key="d0">person</data>
+      <data key="d1">Fong K.F. 是一位国外研究人员，指出从定流量定频空调系统改造为变流量变频空调系统后能够实现很好的节能效果。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="江森自控">
+      <data key="d0">organization</data>
+      <data key="d1">江森自控是一家提供选型软件Yorkworks用于模拟分析离心式冷水机组性能的公司。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="GB/T18430.1—2007">
+      <data key="d0">category</data>
+      <data key="d1">GB/T18430.1—2007 is a standard that provides weighted factors for different load conditions in evaluating the efficiency of air conditioning systems.&lt;SEP&gt;GB/T18430.1—2007是一个国家标准，规定了蒸气压缩循环冷水（热泵）机组的测试方法。</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0&lt;SEP&gt;chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="中央空调">
+      <data key="d0">category</data>
+      <data key="d1">中央空调是一种广泛应用于居家环境、工作场所、公共场所等领域的设备，用于控制温湿度，提高舒适度。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="空调系统">
+      <data key="d0">category</data>
+      <data key="d1">空调系统是指用于控制温湿度的设备组合，包括冷水机组、水泵和风机等，其能耗在建筑总能耗中占较大比例。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="变频离心式冷水机组">
+      <data key="d0">organization</data>
+      <data key="d1">变频离心式冷水机组是一种制冷效率较高的冷水机组，适用于全年综合节能需求。&lt;SEP&gt;变频离心式冷水机组是一种采用变频技术的冷水机组，能够提高空调系统的综合效率。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5&lt;SEP&gt;chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="定频离心式冷水机组">
+      <data key="d0">category</data>
+      <data key="d1">定频离心式冷水机组是一种传统的冷水机组，与变频离心式冷水机组相比，其能效较低。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="变流量系统">
+      <data key="d0">category</data>
+      <data key="d1">变流量系统是指通过改变冷冻水或冷却水的流量来实现节能效果的空调系统。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="定流量系统">
+      <data key="d0">category</data>
+      <data key="d1">定流量系统是指冷冻水或冷却水的流量保持恒定的空调系统，相对于变流量系统，其能效较低。</data>
+      <data key="d2">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </node>
+    <node id="GB/T 18430.1—2007">
+      <data key="d0">category</data>
+      <data key="d1">GB/T 18430.1—2007 is a standard that provides the reference for operating conditions in the context of the text.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Variable Chilled Water Flow System">
+      <data key="d0">category</data>
+      <data key="d1">Variable Chilled Water Flow System is a control strategy used in HVAC systems to manage the flow of chilled water, typically using a fixed temperature difference method.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Constant Chilled Water Flow System">
+      <data key="d0">category</data>
+      <data key="d1">Constant Chilled Water Flow System is a control strategy where the flow of chilled water is kept constant, and it is used for comparison with the variable flow system.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Centrifugal Chiller">
+      <data key="d0">category</data>
+      <data key="d1">Centrifugal Chiller is a type of chiller used in HVAC systems, and its efficiency is analyzed under different operating conditions in the text.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="COP Curve">
+      <data key="d0">category</data>
+      <data key="d1">COP (Coefficient of Performance) Curve is a graphical representation of the efficiency of the centrifugal chiller under different load conditions, comparing variable and constant flow systems.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Temperature Sensor">
+      <data key="d0">technology</data>
+      <data key="d1">Temperature Sensor is a device used to measure the temperature of the chilled water in both the variable and constant flow systems.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Controller">
+      <data key="d0">technology</data>
+      <data key="d1">Controller is a device that compares the actual temperature difference with a target value and controls the pump speed and flow rate.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Pump">
+      <data key="d0">technology</data>
+      <data key="d1">Pump is a device that adjusts its speed to maintain the target temperature difference in the chilled water system.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Variable Frequency Drive (VFD)">
+      <data key="d0">technology</data>
+      <data key="d1">Variable Frequency Drive (VFD) is a technology used in the variable frequency chiller to adjust the compressor speed for energy efficiency.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Guide Vane">
+      <data key="d0">technology</data>
+      <data key="d1">Guide Vane is a component used in the constant frequency chiller to regulate energy by adjusting the flow of refrigerant.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Heat Exchanger">
+      <data key="d0">technology</data>
+      <data key="d1">Heat Exchanger is a component in the chiller system where heat transfer occurs between the chilled water and the refrigerant.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Evaporator">
+      <data key="d0">technology</data>
+      <data key="d1">Evaporator is a part of the chiller system where the refrigerant absorbs heat from the chilled water, cooling it down.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Condenser">
+      <data key="d0">technology</data>
+      <data key="d1">Condenser is a part of the chiller system where the refrigerant releases heat to the cooling water, condensing it back into a liquid.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Cooling Water Inlet Temperature">
+      <data key="d0">category</data>
+      <data key="d1">Cooling Water Inlet Temperature is a parameter that changes according to the load, as specified in GB/T 18430.1—2007.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Chilled Water Outlet Temperature">
+      <data key="d0">category</data>
+      <data key="d1">Chilled Water Outlet Temperature is a parameter that is kept constant in the variable and constant flow systems.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Minimum Flow Rate">
+      <data key="d0">category</data>
+      <data key="d1">Minimum Flow Rate is a constraint that ensures the water flow does not drop below a certain level to prevent poor heat transfer.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Turbulent Flow">
+      <data key="d0">category</data>
+      <data key="d1">Turbulent Flow is a type of fluid flow characterized by chaotic changes in pressure and velocity, which is more efficient for heat transfer.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="Laminar Flow">
+      <data key="d0">category</data>
+      <data key="d1">Laminar Flow is a type of fluid flow characterized by smooth, steady streams, which is less efficient for heat transfer.</data>
+      <data key="d2">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </node>
+    <node id="W Company">
+      <data key="d0">organization</data>
+      <data key="d1">W Company is the manufacturer of the cooling and chilled water pumps used in the analysis, with specific models mentioned.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Cooling Water Pump Model IL250/370-75/4">
+      <data key="d0">technology</data>
+      <data key="d1">Cooling Water Pump Model IL250/370-75/4 is a specific model of pump used in the analysis, provided by W Company.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Chilled Water Pump Model 250/380-75/4">
+      <data key="d0">technology</data>
+      <data key="d1">Chilled Water Pump Model 250/380-75/4 is a specific model of pump used in the analysis, provided by W Company.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Variable Frequency Drive (VFD) Chillers">
+      <data key="d0">technology</data>
+      <data key="d1">Variable Frequency Drive (VFD) Chillers are used in the analysis to compare their energy efficiency with constant frequency chillers.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Constant Frequency Chillers">
+      <data key="d0">technology</data>
+      <data key="d1">Constant Frequency Chillers are used in the analysis as a baseline to compare their energy efficiency with VFD chillers.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Air Conditioning System">
+      <data key="d0">technology</data>
+      <data key="d1">The Air Conditioning System is the overall system being analyzed, including chillers and pumps, to evaluate its energy efficiency under different control methods.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Pump Energy Consumption Analysis">
+      <data key="d0">event</data>
+      <data key="d1">Pump Energy Consumption Analysis is the event where the energy consumption of both constant and variable frequency pumps is compared under different loads.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Comprehensive Energy Efficiency Analysis">
+      <data key="d0">event</data>
+      <data key="d1">Comprehensive Energy Efficiency Analysis is the event where the total energy consumption of the air conditioning system, including chillers and pumps, is evaluated under different load conditions.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Fixed Temperature Difference Control Method">
+      <data key="d0">category</data>
+      <data key="d1">Fixed Temperature Difference Control Method is a control strategy where the temperature difference is kept constant, and the flow rate is adjusted accordingly.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Variable Flow Rate Control Method">
+      <data key="d0">category</data>
+      <data key="d1">Variable Flow Rate Control Method is a control strategy where the flow rate is adjusted to maintain a desired temperature, leading to varying temperature differences.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Fixed Cooling Water Outlet Temperature Control Method">
+      <data key="d0">category</data>
+      <data key="d1">Fixed Cooling Water Outlet Temperature Control Method is a control strategy where the outlet temperature of the cooling water is kept constant, and the flow rate is adjusted accordingly.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Part Load Conditions">
+      <data key="d0">category</data>
+      <data key="d1">Part Load Conditions refer to the operating conditions where the system is not running at full capacity, which is a common scenario in many applications.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="Full Load Conditions">
+      <data key="d0">category</data>
+      <data key="d1">Full Load Conditions refer to the operating conditions where the system is running at its maximum capacity, typically used as a reference point for performance evaluation.</data>
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </node>
+    <node id="定频机组">
+      <data key="d0">organization</data>
+      <data key="d1">定频机组是传统的一种冷水机组，其运行频率固定不变，效率相对较低。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="磁悬浮离心式冷水机组">
+      <data key="d0">organization</data>
+      <data key="d1">磁悬浮离心式冷水机组利用独特的设计优势，在低环境温度下能够持续稳定运行，适合数据中心等应用场合。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="某地区数据中心">
+      <data key="d0">geo</data>
+      <data key="d1">某地区数据中心是一个地理位置上的实体，用于存储和处理数据，需要精确的温湿度控制。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="节能特性研究">
+      <data key="d0">event</data>
+      <data key="d1">节能特性研究是对离心式冷水机组在变流量系统中应用的理论和模拟计算分析，旨在提高系统效率。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="低环境温度下的应用对比分析">
+      <data key="d0">event</data>
+      <data key="d1">低环境温度下的应用对比分析是对不同类型的冷水机组在低环境温度下的性能进行比较和评估。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="变冷冻水流量系统">
+      <data key="d0">category</data>
+      <data key="d1">变冷冻水流量系统是一种通过改变冷冻水流量来提高空调系统效率的技术方案。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="定温差变冷却水流量系统">
+      <data key="d0">category</data>
+      <data key="d1">定温差变冷却水流量系统是一种通过保持恒定温差并改变冷却水流量来提高空调系统效率的技术方案。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="全变频设备配置">
+      <data key="d0">category</data>
+      <data key="d1">全变频设备配置是指所有设备都采用变频技术，以提高整个系统的综合效率。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="定流量、全定频设备的空调系统">
+      <data key="d0">category</data>
+      <data key="d1">定流量、全定频设备的空调系统是一种传统的空调系统配置，其流量和频率都是固定的。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="自然冷却">
+      <data key="d0">category</data>
+      <data key="d1">自然冷却是指利用环境温度较低的条件进行冷却，减少能耗的一种冷却方式。</data>
+      <data key="d2">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </node>
+    <node id="Air Conditioning System Efficiency Analysis">
+      <data key="d2">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+      <data key="d1">GB/T18430.1—2007 provides the weighted factors for evaluating the efficiency of the air conditioning system under different load conditions.</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="台州某医院">
+      <data key="d0">organization</data>
+      <data key="d1">台州某医院是拥有暖通空调制冷机房的医疗机构。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="控制面板">
+      <data key="d0">category</data>
+      <data key="d1">控制面板用于显示暖通空调制冷机房的各个组件的工作状态，包括冷却塔的冷却水温度、制冷机组的冷却水温度、冷却水泵的冷却水压力等参数，并具备设置、调节、监测等功能。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="制冷机组">
+      <data key="d0">category</data>
+      <data key="d1">制冷机组是空调制冷机房中最重要的制冷设备之一，主要功能是将热量转换为冷量。共有7个制冷机组，分别是1、2、3、4、5、6、7号制冷机组。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="1号冷却塔">
+      <data key="d0">category</data>
+      <data key="d1">1号冷却塔是7个冷却塔之一，负责将制冷机组产生的热量排放到环境中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="2号冷却塔">
+      <data key="d0">category</data>
+      <data key="d1">2号冷却塔是7个冷却塔之一，负责将制冷机组产生的热量排放到环境中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="3号冷却塔">
+      <data key="d0">category</data>
+      <data key="d1">3号冷却塔是7个冷却塔之一，负责将制冷机组产生的热量排放到环境中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="4号冷却塔">
+      <data key="d0">category</data>
+      <data key="d1">4号冷却塔是7个冷却塔之一，负责将制冷机组产生的热量排放到环境中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="5号冷却塔">
+      <data key="d0">category</data>
+      <data key="d1">5号冷却塔是7个冷却塔之一，负责将制冷机组产生的热量排放到环境中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="6号冷却塔">
+      <data key="d0">category</data>
+      <data key="d1">6号冷却塔是7个冷却塔之一，负责将制冷机组产生的热量排放到环境中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="7号冷却塔">
+      <data key="d0">category</data>
+      <data key="d1">7号冷却塔是7个冷却塔之一，负责将制冷机组产生的热量排放到环境中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="1号制冷机组">
+      <data key="d0">category</data>
+      <data key="d1">1号制冷机组是7个制冷机组之一，主要功能是将热量转换为冷量。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="2号制冷机组">
+      <data key="d0">category</data>
+      <data key="d1">2号制冷机组是7个制冷机组之一，主要功能是将热量转换为冷量。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="3号制冷机组">
+      <data key="d0">category</data>
+      <data key="d1">3号制冷机组是7个制冷机组之一，主要功能是将热量转换为冷量。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="4号制冷机组">
+      <data key="d0">category</data>
+      <data key="d1">4号制冷机组是7个制冷机组之一，主要功能是将热量转换为冷量。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="5号制冷机组">
+      <data key="d0">category</data>
+      <data key="d1">5号制冷机组是7个制冷机组之一，主要功能是将热量转换为冷量。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="6号制冷机组">
+      <data key="d0">category</data>
+      <data key="d1">6号制冷机组是7个制冷机组之一，主要功能是将热量转换为冷量。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="7号制冷机组">
+      <data key="d0">category</data>
+      <data key="d1">7号制冷机组是7个制冷机组之一，主要功能是将热量转换为冷量。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="A冷却水泵">
+      <data key="d0">category</data>
+      <data key="d1">A冷却水泵是2个冷却水泵之一，主要功能是将冷却水泵送到冷却塔和制冷机组中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <node id="B冷却水泵">
+      <data key="d0">category</data>
+      <data key="d1">B冷却水泵是2个冷却水泵之一，主要功能是将冷却水泵送到冷却塔和制冷机组中。</data>
+      <data key="d2">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </node>
+    <edge source="Taizhou Central Hospital" target="Air Conditioning Group Control Algorithm">
+      <data key="d3">60.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm is implemented at Taizhou Central Hospital to optimize the operation of the air conditioning system.</data>
+      <data key="d5">implementation, optimization</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Tian Su personnel">
+      <data key="d3">48.0</data>
+      <data key="d4">Tian Su personnel can manually intervene in the Air Conditioning Group Control Algorithm, adjusting the settings based on various conditions.</data>
+      <data key="d5">manual intervention, adjustment</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Cooling Tower">
+      <data key="d3">54.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm includes rules for the automatic loading and unloading of the cooling tower based on the cooling water outlet temperature.</data>
+      <data key="d5">automatic control, temperature regulation</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Cooling Pump">
+      <data key="d3">48.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm includes rules for the optimization of the cooling pump based on the temperature difference between the supply and return water of the cooling water.</data>
+      <data key="d5">automatic adjustment, temperature difference</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Chilled Pump">
+      <data key="d3">42.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm specifies that the chilled pump remains running even when other components like the cooling tower and air conditioning unit stop.</data>
+      <data key="d5">continuous operation, system stability</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Refrigeration Pump">
+      <data key="d3">48.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm includes rules for the automatic adjustment of the refrigeration pump based on the supply pressure of the chilled water main.</data>
+      <data key="d5">pressure regulation, automatic adjustment</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Electric Valve">
+      <data key="d3">48.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm includes rules for the automatic adjustment of the electric valve in the outpatient building based on the time of day.</data>
+      <data key="d5">time-based control, comfort level</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Outpatient Building">
+      <data key="d3">48.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm includes rules for the automatic adjustment of the electric valve in the outpatient building to ensure comfort levels.</data>
+      <data key="d5">building-specific control, comfort level</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Inpatient Building A">
+      <data key="d3">42.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm includes rules for the manual closure of the electric valve in Inpatient Building A during the running period of the algorithm.</data>
+      <data key="d5">manual control, building-specific</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="Inpatient Building B">
+      <data key="d3">42.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm includes rules for the manual closure of the electric valve in Inpatient Building B during the running period of the algorithm.</data>
+      <data key="d5">manual control, building-specific</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Air Conditioning Group Control Algorithm" target="PLC Control Button">
+      <data key="d3">48.0</data>
+      <data key="d4">The Air Conditioning Group Control Algorithm includes rules for switching to local control using the PLC control button in case of an abnormal situation.</data>
+      <data key="d5">emergency control, manual override</data>
+      <data key="d6">chunk-36d86e666c0173586c714b174f29ae19</data>
+    </edge>
+    <edge source="Cooling Tower" target="Energy Consumption Comparison">
+      <data key="d3">12.0</data>
+      <data key="d4">The Cooling Tower is one of the components whose energy consumption is analyzed as part of the Energy Consumption Comparison.</data>
+      <data key="d5">component, energy analysis</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="上海轨道交通9号线一期工程" target="松江新城站">
+      <data key="d3">32.0</data>
+      <data key="d4">松江新城站是上海轨道交通9号线一期工程中的一个车站，表明该站点是整个工程项目的一部分。</data>
+      <data key="d5">项目组成, 地理位置</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="上海轨道交通9号线一期工程" target="宜山路站">
+      <data key="d3">32.0</data>
+      <data key="d4">宜山路站是上海轨道交通9号线一期工程中的一个车站，表明该站点是整个工程项目的一部分。</data>
+      <data key="d5">项目组成, 地理位置</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷水机组群控系统" target="冷冻机房">
+      <data key="d3">36.0</data>
+      <data key="d4">冷水机组群控系统用于协调冷冻机房内的设备运行，确保系统高效节能。</data>
+      <data key="d5">系统控制, 能源管理</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷水机组群控系统" target="BAS系统">
+      <data key="d3">28.0</data>
+      <data key="d4">冷水机组群控系统根据BAS系统的时间表或单独指令启动和停止，实现自动化控制。</data>
+      <data key="d5">自动化控制, 时间同步</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="BAS系统" target="开利的CCN系统">
+      <data key="d3">28.0</data>
+      <data key="d4">开利的CCN系统在冷水机组控制方面比BAS系统更先进、更节能，且控制效果更好。</data>
+      <data key="d5">技术对比, 控制优化</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="冷冻机房" target="螺杆式冷水机组">
+      <data key="d3">18.0</data>
+      <data key="d4">螺杆式冷水机组是冷冻机房中的主要设备之一，用于提供冷源。</data>
+      <data key="d5">设备组成, 冷源提供</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="冷冻水泵">
+      <data key="d3">16.0</data>
+      <data key="d4">冷冻水泵是冷冻机房中的设备之一，用于输送冷冻水。</data>
+      <data key="d5">设备组成, 水流输送</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="冷却水泵">
+      <data key="d3">16.0</data>
+      <data key="d4">冷却水泵是冷冻机房中的设备之一，用于输送冷却水。</data>
+      <data key="d5">设备组成, 水流输送</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="冷却塔">
+      <data key="d3">16.0</data>
+      <data key="d4">冷却塔是冷冻机房中的设备之一，用于散热。</data>
+      <data key="d5">设备组成, 散热功能</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="电动水阀">
+      <data key="d3">14.0</data>
+      <data key="d4">电动水阀是冷冻机房中的设备之一，用于控制水流。</data>
+      <data key="d5">设备组成, 水流控制</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="冷却塔自动补水阀">
+      <data key="d3">14.0</data>
+      <data key="d4">冷却塔自动补水阀是冷冻机房中的设备之一，用于自动补充冷却塔中的水。</data>
+      <data key="d5">设备组成, 自动补水</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="传感器">
+      <data key="d3">12.0</data>
+      <data key="d4">传感器是冷冻机房中的设备之一，用于监测各种参数。</data>
+      <data key="d5">设备组成, 参数监测</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="执行器">
+      <data key="d3">14.0</data>
+      <data key="d4">执行器是冷冻机房中的设备之一，用于执行控制系统发出的指令。</data>
+      <data key="d5">设备组成, 指令执行</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="压差旁通装置">
+      <data key="d3">14.0</data>
+      <data key="d4">压差旁通装置是冷冻机房中的设备之一，用于维持冷冻水供、回水压差恒定。</data>
+      <data key="d5">设备组成, 压差控制</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="电动调节阀">
+      <data key="d3">14.0</data>
+      <data key="d4">电动调节阀是冷冻机房中的设备之一，用于调节水流。</data>
+      <data key="d5">设备组成, 水流调节</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="冷冻机房" target="开关阀">
+      <data key="d3">14.0</data>
+      <data key="d4">开关阀是冷冻机房中的设备之一，用于控制水流的开关。</data>
+      <data key="d5">设备组成, 水流控制</data>
+      <data key="d6">chunk-7c643fdc6ad4556007911b4071bfd55d</data>
+    </edge>
+    <edge source="螺杆式冷水机组" target="暖通空调系统">
+      <data key="d3">6.0</data>
+      <data key="d4">螺杆式冷水机组是洁净空调水系统中的关键设备，用于满足手术室对冷源的需求。</data>
+      <data key="d5">冷源供应, 系统组成</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="冷冻水泵" target="开利的CCN系统">
+      <data key="d3">16.0</data>
+      <data key="d4">开利的CCN系统自动监测冷冻水泵的运行状态，并在故障时启动备用设备。</data>
+      <data key="d5">监测控制, 故障处理</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="冷冻水泵" target="冷冻系统">
+      <data key="d3">9.0</data>
+      <data key="d4">冷冻水泵用于驱动冷冻水的循环，确保冷冻系统的正常运行。</data>
+      <data key="d5">驱动, 循环控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="冷冻水泵" target="变频反馈">
+      <data key="d3">8.0</data>
+      <data key="d4">冷冻水泵通过变频反馈实现对水流的精确控制。</data>
+      <data key="d5">控制, 变频反馈</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="冷冻水泵" target="初始系统">
+      <data key="d3">8.0</data>
+      <data key="d4">Chilled water pumps are a key component of the initial air conditioning system, contributing to its overall energy consumption and performance.</data>
+      <data key="d5">system component, baseline</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="冷冻水泵" target="初始空调系统">
+      <data key="d3">9.0</data>
+      <data key="d4">冷冻水泵是初始空调系统的一部分，负责输送冷冻水。</data>
+      <data key="d5">组成部分, 功能</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷冻水泵" target="方案一">
+      <data key="d3">8.0</data>
+      <data key="d4">方案一中，冷冻水泵的能耗占系统总能耗的39.52%。</data>
+      <data key="d5">能耗占比, 组成部分</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷冻水泵" target="方案二">
+      <data key="d3">8.0</data>
+      <data key="d4">方案二中，冷冻水泵的能耗占系统总能耗的38.18%。</data>
+      <data key="d5">能耗占比, 组成部分</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷冻水泵" target="空调系统">
+      <data key="d3">8.0</data>
+      <data key="d4">冷冻水泵是空调系统中的一个重要部件，用于输送冷冻水，其能耗可以通过变频技术降低。</data>
+      <data key="d5">重要部件, 节能潜力</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="冷却水泵" target="开利的CCN系统">
+      <data key="d3">16.0</data>
+      <data key="d4">开利的CCN系统自动监测冷却水泵的运行状态，并在故障时启动备用设备。</data>
+      <data key="d5">监测控制, 故障处理</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="冷却水泵" target="冷却系统">
+      <data key="d3">9.0</data>
+      <data key="d4">冷却水泵用于驱动冷却水的循环，确保冷却系统的正常运行。</data>
+      <data key="d5">驱动, 循环控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="冷却水泵" target="变频反馈">
+      <data key="d3">8.0</data>
+      <data key="d4">冷却水泵通过变频反馈实现对水流的精确控制。</data>
+      <data key="d5">控制, 变频反馈</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="冷却水泵" target="冷水机组">
+      <data key="d3">8.0</data>
+      <data key="d4">冷却水泵与冷水机组协同工作，确保冷却水的循环和系统的正常运行。</data>
+      <data key="d5">协同工作, 冷却循环</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷却水泵" target="冷却塔风机">
+      <data key="d3">8.0</data>
+      <data key="d4">冷却塔风机与冷却水泵协同工作，确保冷却水的温度和流量符合要求。</data>
+      <data key="d5">协同工作, 温度控制</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷却水泵" target="温度传感器">
+      <data key="d3">7.0</data>
+      <data key="d4">温度传感器的数据用于控制冷却水泵的运行，确保冷却水的温度和流量。</data>
+      <data key="d5">温度监测, 水泵控制</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷却水泵" target="电动阀门">
+      <data key="d3">7.0</data>
+      <data key="d4">电动阀门的状态影响冷却水泵的运行，确保系统的正常工作。</data>
+      <data key="d5">状态影响, 正常工作</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷却水泵" target="DDC (直接数字控制器)">
+      <data key="d3">8.0</data>
+      <data key="d4">DDC控制冷却水泵的启停，确保冷却水的循环和系统的正常运行。</data>
+      <data key="d5">控制, 循环</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷却水泵" target="初始系统">
+      <data key="d3">8.0</data>
+      <data key="d4">Cooling water pumps are a key component of the initial air conditioning system, contributing to its overall energy consumption and performance.</data>
+      <data key="d5">system component, baseline</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="冷却水泵" target="初始空调系统">
+      <data key="d3">9.0</data>
+      <data key="d4">冷却水泵是初始空调系统的一部分，负责输送冷却水。</data>
+      <data key="d5">组成部分, 功能</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷却水泵" target="方案一">
+      <data key="d3">8.0</data>
+      <data key="d4">方案一中，冷却水泵的能耗占系统总能耗的39.52%。</data>
+      <data key="d5">能耗占比, 组成部分</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷却水泵" target="方案二">
+      <data key="d3">8.0</data>
+      <data key="d4">方案二中，冷却水泵的能耗占系统总能耗的38.18%。</data>
+      <data key="d5">能耗占比, 组成部分</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷却水泵" target="空调系统">
+      <data key="d3">8.0</data>
+      <data key="d4">冷却水泵是空调系统中的一个重要部件，用于输送冷却水，其能耗可以通过变频技术降低。</data>
+      <data key="d5">重要部件, 节能潜力</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="冷却水泵" target="冷却塔">
+      <data key="d3">8.0</data>
+      <data key="d4">冷却水泵将冷却水输送到冷却塔中，确保冷却塔能够正常工作。</data>
+      <data key="d5">水流输送, 支持</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="冷却水泵" target="制冷机组">
+      <data key="d3">8.0</data>
+      <data key="d4">冷却水泵将冷却水输送到制冷机组中，确保制冷机组能够正常工作。</data>
+      <data key="d5">水流输送, 支持</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="冷却塔" target="冷冻机">
+      <data key="d3">14.0</data>
+      <data key="d4">冷却塔用于冷却冷冻水，其运行时间被自动平衡以延长冷冻机和其他设备的使用寿命。</data>
+      <data key="d5">设备协同, 使用寿命</data>
+      <data key="d6">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </edge>
+    <edge source="冷却塔" target="冷却系统">
+      <data key="d3">9.0</data>
+      <data key="d4">冷却塔用于冷却冷却水，确保冷却系统的正常运行。</data>
+      <data key="d5">冷却, 循环控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="冷却塔" target="电动蝶阀">
+      <data key="d3">8.0</data>
+      <data key="d4">冷却塔通过电动蝶阀开关控制来实现冷却功能。</data>
+      <data key="d5">控制, 阀门开关</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="冷却塔" target="初始系统">
+      <data key="d3">8.0</data>
+      <data key="d4">Cooling towers are a key component of the initial air conditioning system, contributing to its overall energy consumption and performance.</data>
+      <data key="d5">system component, baseline</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="冷却塔" target="初始空调系统">
+      <data key="d3">9.0</data>
+      <data key="d4">冷却塔是初始空调系统的一部分，负责冷却循环水。</data>
+      <data key="d5">组成部分, 功能</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷却塔" target="方案一">
+      <data key="d3">8.0</data>
+      <data key="d4">方案一中，冷却塔的能耗占系统总能耗的10.72%。</data>
+      <data key="d5">能耗占比, 组成部分</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷却塔" target="方案二">
+      <data key="d3">8.0</data>
+      <data key="d4">方案二中，冷却塔的能耗占系统总能耗的14.49%。</data>
+      <data key="d5">能耗占比, 组成部分</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷却塔" target="冷却泵">
+      <data key="d3">7.0</data>
+      <data key="d4">冷却塔与冷却泵根据实时需求自动启停，确保设备始终处于最优运行区间。</data>
+      <data key="d5">负载平衡, 能耗优化</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="冷却塔" target="上海某商场">
+      <data key="d3">8.0</data>
+      <data key="d4">上海某商场根据冷却水出水温度和系统实时负荷自动调整冷却塔的运行数量，以满足高负荷制冷需求并实现能耗控制。</data>
+      <data key="d5">智能调控, 能耗控制</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="冷却塔" target="中央控制平台">
+      <data key="d3">8.0</data>
+      <data key="d4">中央控制平台通过实时采集冷却塔的运行数据和现场环境指标，自动进行调控策略调整。</data>
+      <data key="d5">实时监控, 自动调控</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="冷却塔" target="制冷机组">
+      <data key="d3">9.0</data>
+      <data key="d4">冷却塔负责将制冷机组产生的热量排放到环境中，两者之间存在直接的热交换关系。</data>
+      <data key="d5">热交换, 冷却</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="电动调节阀" target="某医院">
+      <data key="d3">7.0</data>
+      <data key="d4">某医院通过电动调节阀来维持合适的供回水混合比例，优化换热站的运行状态。</data>
+      <data key="d5">调控, 优化</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="开利的CCN系统" target="CSM令水机组系统管理模块">
+      <data key="d3">40.0</data>
+      <data key="d4">CSM令水机组系统管理模块是开利CCN系统的重要组成部分，提供全面的监测与管理功能。</data>
+      <data key="d5">技术组成, 优化控制</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="开利的CCN系统" target="冷水机组">
+      <data key="d3">18.0</data>
+      <data key="d4">开利的CCN系统通过CSM令水机组系统管理模块对冷水机组进行全面的监测与管理。</data>
+      <data key="d5">技术控制, 监测管理</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="开利的CCN系统" target="电动蝶阀">
+      <data key="d3">14.0</data>
+      <data key="d4">开利的CCN系统根据程序自动安排电动蝶阀的开关。</data>
+      <data key="d5">自动控制, 设备操作</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="开利的CCN系统" target="冷却塔风机">
+      <data key="d3">16.0</data>
+      <data key="d4">开利的CCN系统根据冷却水温度自动控制冷却塔风机的启停。</data>
+      <data key="d5">温度控制, 自动操作</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="上海轨道交通9号线车站空调系统" target="上海">
+      <data key="d3">32.0</data>
+      <data key="d4">上海轨道交通9号线车站空调系统是位于上海市内的一个技术系统，服务于该市的交通设施。</data>
+      <data key="d5">地理位置, 服务对象</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="上海轨道交通9号线车站空调系统" target="建筑电气设计规范(JCJ/T16-92)">
+      <data key="d3">14.0</data>
+      <data key="d4">建筑电气设计规范(JCJ/T16-92)是上海轨道交通9号线车站空调系统的设计依据之一。</data>
+      <data key="d5">设计依据, 标准规范</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="上海轨道交通9号线车站空调系统" target="智能建筑设计标准(DBJ-08-47-95)">
+      <data key="d3">14.0</data>
+      <data key="d4">智能建筑设计标准(DBJ-08-47-95)是上海轨道交通9号线车站空调系统的设计依据之一。</data>
+      <data key="d5">设计依据, 标准规范</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="上海轨道交通9号线车站空调系统" target="采暖通风与空气调节设计规范(GBJ19-87)">
+      <data key="d3">14.0</data>
+      <data key="d4">采暖通风与空气调节设计规范(GBJ19-87)是上海轨道交通9号线车站空调系统的设计依据之一。</data>
+      <data key="d5">设计依据, 标准规范</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="上海轨道交通9号线车站空调系统" target="电气装置工程施工及验收规范(GBJ232-82)">
+      <data key="d3">14.0</data>
+      <data key="d4">电气装置工程施工及验收规范(GBJ232-82)是上海轨道交通9号线车站空调系统的设计依据之一。</data>
+      <data key="d5">设计依据, 标准规范</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="CSM令水机组系统管理模块" target="冷水机组">
+      <data key="d3">20.0</data>
+      <data key="d4">CSM令水机组系统管理模块对冷水机组进行全面的监测与管理，无需流量监测。</data>
+      <data key="d5">监测管理, 技术优化</data>
+      <data key="d6">chunk-5ecc228ef3debff5b8a3fdb619eb2a1d</data>
+    </edge>
+    <edge source="冷水机组" target="Reduce Cooling Required-RCR">
+      <data key="d3">18.0</data>
+      <data key="d4">冷水机组是Reduce Cooling Required-RCR流程中的关键设备，该流程旨在通过卸载部分机组来优化其运行。</data>
+      <data key="d5">设备管理, 能源优化</data>
+      <data key="d6">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </edge>
+    <edge source="冷水机组" target="I- VU系统">
+      <data key="d3">18.0</data>
+      <data key="d4">I- VU系统能够管理冷水机组的运行，优化其能源消耗。</data>
+      <data key="d5">能源管理, 系统控制</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="冷水机组" target="数据中心">
+      <data key="d3">9.0</data>
+      <data key="d4">冷水机组是数据中心的重要组成部分，负责为其提供冷却服务，确保设备正常运行。</data>
+      <data key="d5">基础设施, 冷却服务</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="RCR (Reduce Cooling Required)">
+      <data key="d3">8.0</data>
+      <data key="d4">冷水机组在满足特定条件下会进入RCR 流程，以减少制冷需求。</data>
+      <data key="d5">节能, 控制流程</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="冷却塔风机">
+      <data key="d3">7.0</data>
+      <data key="d4">冷水机组的运行与冷却塔风机的状态密切相关，两者协同工作以维持冷却效果。</data>
+      <data key="d5">协同工作, 温度控制</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="群控系统">
+      <data key="d3">9.0</data>
+      <data key="d4">群控系统负责管理和控制冷水机组的运行，包括启动、停止和故障处理等。</data>
+      <data key="d5">管理, 控制</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="UPS (不间断电源)">
+      <data key="d3">8.0</data>
+      <data key="d4">UPS 为冷水机组的相关控制设备提供电力支持，确保在市电断电时冷水机组仍能继续运行。</data>
+      <data key="d5">电力支持, 应急供电</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="柴油发电机">
+      <data key="d3">7.0</data>
+      <data key="d4">柴油发电机在市电断电时为冷水机组提供备用电力，确保其能够恢复运行。</data>
+      <data key="d5">备用电力, 故障恢复</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="温度传感器">
+      <data key="d3">8.0</data>
+      <data key="d4">温度传感器监测冷冻水供水温度，数据用于冷水机组的控制和调整。</data>
+      <data key="d5">温度监测, 控制调整</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="电动阀门">
+      <data key="d3">7.0</data>
+      <data key="d4">电动阀门的状态直接影响冷水机组的运行，确保系统的稳定。</data>
+      <data key="d5">状态维持, 系统稳定</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="DDC (直接数字控制器)">
+      <data key="d3">9.0</data>
+      <data key="d4">DDC控制冷水机组及其相关设备的启动、停止和故障处理等操作。</data>
+      <data key="d5">控制, 协调</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷水机组" target="初始系统">
+      <data key="d3">8.0</data>
+      <data key="d4">Chilled water units are a key component of the initial air conditioning system, contributing to its overall energy consumption and performance.</data>
+      <data key="d5">system component, baseline</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="冷水机组" target="初始空调系统">
+      <data key="d3">9.0</data>
+      <data key="d4">冷水机组是初始空调系统的一部分，负责提供冷冻水。</data>
+      <data key="d5">组成部分, 功能</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷水机组" target="方案一">
+      <data key="d3">8.0</data>
+      <data key="d4">方案一中，冷水机组的能耗占系统总能耗的49.76%。</data>
+      <data key="d5">能耗占比, 组成部分</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷水机组" target="方案二">
+      <data key="d3">8.0</data>
+      <data key="d4">方案二中，冷水机组的能耗占系统总能耗的46.33%。</data>
+      <data key="d5">能耗占比, 组成部分</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="冷水机组" target="暖通空调系统">
+      <data key="d3">16.0</data>
+      <data key="d4">冷水机组是暖通空调系统中的关键设备，通过优化配置可以提高系统的能效。&lt;SEP&gt;冷水机组是暖通空调系统的一部分，用于提供冷源。</data>
+      <data key="d5">冷源供应, 系统组成&lt;SEP&gt;能效提升, 设备优化</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91&lt;SEP&gt;chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="冷水机组" target="离心式制冷剂">
+      <data key="d3">6.0</data>
+      <data key="d4">离心式制冷剂是冷水机组中的一种制冷剂类型，其COP（能效比）较高。</data>
+      <data key="d5">冷源供应, 高效制冷</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="冷水机组" target="梁采华">
+      <data key="d3">8.0</data>
+      <data key="d4">梁采华研究了变冷冻水流量对冷水机组的制冷量和效率的影响，发现能够大幅降低冷冻水泵的功耗。</data>
+      <data key="d5">研究, 节能</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="冷水机组" target="李苏泷">
+      <data key="d3">7.0</data>
+      <data key="d4">李苏泷指出冷却水变流量对冷水机组的效率有一定负面影响，但对水泵节能有正面影响。</data>
+      <data key="d5">研究, 节能</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="冷水机组" target="江森自控">
+      <data key="d3">8.0</data>
+      <data key="d4">江森自控提供的选型软件Yorkworks用于模拟分析离心式冷水机组的性能。</data>
+      <data key="d5">技术支持, 系统优化</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="冷水机组" target="GB/T18430.1—2007">
+      <data key="d3">7.0</data>
+      <data key="d4">GB/T18430.1—2007标准规定了冷水机组在不同工况下的测试方法，用于评估其性能。</data>
+      <data key="d5">标准, 测试方法</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="冷水机组" target="空调系统">
+      <data key="d3">9.0</data>
+      <data key="d4">冷水机组是空调系统中的主要耗能部件，其能耗占空调系统总能耗的60%～70%。</data>
+      <data key="d5">主要耗能部件, 能耗占比</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="冷却塔风机" target="温度传感器">
+      <data key="d3">8.0</data>
+      <data key="d4">温度传感器的数据用于决定冷却塔风机的启停，以维持冷却水回水温度的设计值。</data>
+      <data key="d5">温度监测, 启停控制</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷却塔风机" target="电动阀门">
+      <data key="d3">7.0</data>
+      <data key="d4">电动阀门的状态影响冷却塔风机的工作，确保系统的整体协调。</data>
+      <data key="d5">状态影响, 协调工作</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="冷却塔风机" target="DDC (直接数字控制器)">
+      <data key="d3">8.0</data>
+      <data key="d4">DDC控制冷却塔风机的启停，根据冷却水回水温度进行调节。</data>
+      <data key="d5">控制, 调节</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="山西省工业设备安装集团有限公司" target="CSM">
+      <data key="d3">28.0</data>
+      <data key="d4">CSM系统由山西省工业设备安装集团有限公司所描述，该公司可能是该系统的开发者或使用者。</data>
+      <data key="d5">技术合作, 系统应用</data>
+      <data key="d6">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </edge>
+    <edge source="CSM" target="Reduce Cooling Required-RCR">
+      <data key="d3">32.0</data>
+      <data key="d4">Reduce Cooling Required-RCR流程依赖于CSM系统的计算结果来决定是否卸载冷水机组。</data>
+      <data key="d5">系统依赖, 流程执行</data>
+      <data key="d6">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </edge>
+    <edge source="CSM" target="旁通水">
+      <data key="d3">16.0</data>
+      <data key="d4">CSM系统计算旁通水的百分比，并将其与工厂预设值进行比较，以决定是否启动冷水机组。</data>
+      <data key="d5">系统计算, 决策依据</data>
+      <data key="d6">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </edge>
+    <edge source="CSM" target="工厂预设值">
+      <data key="d3">16.0</data>
+      <data key="d4">工厂预设值是CSM系统用来比较旁通水百分比的基准，以决定是否启动冷水机组。</data>
+      <data key="d5">基准比较, 决策依据</data>
+      <data key="d6">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </edge>
+    <edge source="Reduce Cooling Required-RCR" target="冷冻机">
+      <data key="d3">36.0</data>
+      <data key="d4">冷冻机是Reduce Cooling Required-RCR流程中的关键设备，该流程旨在通过卸载部分机组来优化其运行。</data>
+      <data key="d5">设备管理, 能源优化</data>
+      <data key="d6">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </edge>
+    <edge source="冷冻机" target="水泵">
+      <data key="d3">14.0</data>
+      <data key="d4">水泵用于输送冷冻水，其运行时间被自动平衡以延长冷冻机和其他设备的使用寿命。</data>
+      <data key="d5">设备协同, 使用寿命</data>
+      <data key="d6">chunk-ff5cd987bab72d2e07c791b3232b05f2</data>
+    </edge>
+    <edge source="水泵" target="空调系统">
+      <data key="d3">8.0</data>
+      <data key="d4">水泵是空调系统中的重要组成部分，其运行状况对系统节能至关重要。</data>
+      <data key="d5">重要组成部分, 系统节能</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="AI摄像头" target="人流响应机制">
+      <data key="d3">18.0</data>
+      <data key="d4">AI摄像头通过实时统计人流密度，动态调节冷冻水流量，实现人流响应机制。&lt;SEP&gt;人流响应机制通过AI摄像头实时统计人流密度，动态调节冷冻水流量。</data>
+      <data key="d5">人流密度, 动态调节</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="冷却塔集群" target="梯度化启停策略">
+      <data key="d3">8.0</data>
+      <data key="d4">冷却塔集群根据温度和湿度条件，采用梯度化启停策略来优化运行。</data>
+      <data key="d5">温度, 湿度, 优化运行</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="气象API数据" target="智能预测控制">
+      <data key="d3">7.0</data>
+      <data key="d4">气象API数据接入温度预测模型，提前2小时预启动系统，实现智能预测控制。</data>
+      <data key="d5">温度预测, 预启动</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="气象API数据" target="温度预测模型">
+      <data key="d3">7.0</data>
+      <data key="d4">温度预测模型接入气象API数据，提前2小时预启动系统，实现智能预测控制。</data>
+      <data key="d5">温度预测, 预启动</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="双因子认证" target="网络安全防护">
+      <data key="d3">18.0</data>
+      <data key="d4">双因子认证（人脸识别+动态口令）用于确保控制指令的安全性，增强网络安全防护。&lt;SEP&gt;网络安全防护通过双因子认证（人脸识别+动态口令）确保控制指令的安全性。</data>
+      <data key="d5">安全认证, 控制指令</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="区块链存证" target="网络安全防护">
+      <data key="d3">8.0</data>
+      <data key="d4">区块链存证用于记录操作日志，确保数据的不可篡改性和安全性，增强网络安全防护。</data>
+      <data key="d5">数据安全, 不可篡改性</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="春秋季（3-5月,9-11月）" target="营业时段 (10:00-22:00)">
+      <data key="d3">7.0</data>
+      <data key="d4">春秋季包括营业时段，该时段具有特定的启动和停机条件。</data>
+      <data key="d5">季节, 时间段, 启动条件</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="春秋季（3-5月,9-11月）" target="夜间节能时段">
+      <data key="d3">7.0</data>
+      <data key="d4">春秋季包括夜间节能时段，该时段具有特定的启动和停机条件。</data>
+      <data key="d5">季节, 时间段, 节能</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="春秋季（3-5月,9-11月）" target="智能分时负荷控制">
+      <data key="d3">8.0</data>
+      <data key="d4">智能分时负荷控制在春秋季采用特定的主机运行模式，包括营业时段和夜间节能时段。</data>
+      <data key="d5">季节, 时间段, 运行模式</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="夏季（6-8月）" target="高峰时段 (10:00-21:00)">
+      <data key="d3">7.0</data>
+      <data key="d4">夏季包括高峰时段，该时段具有特定的启动和停机条件。</data>
+      <data key="d5">季节, 时间段, 启动条件</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="夏季（6-8月）" target="平峰时段">
+      <data key="d3">7.0</data>
+      <data key="d4">夏季包括平峰时段，该时段具有特定的启动和停机条件。</data>
+      <data key="d5">季节, 时间段, 启动条件</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="夏季（6-8月）" target="智能分时负荷控制">
+      <data key="d3">8.0</data>
+      <data key="d4">智能分时负荷控制在夏季采用特定的主机运行模式，包括高峰时段和平峰时段。</data>
+      <data key="d5">季节, 时间段, 运行模式</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="餐饮区" target="分区阀门控制">
+      <data key="d3">16.0</data>
+      <data key="d4">分区阀门控制在餐饮区通过日间开度100%和油烟浓度补偿来调节阀门开度。&lt;SEP&gt;餐饮区的日间开度为100%，并根据油烟浓度进行补偿，在夜间维持30%的基础循环。</data>
+      <data key="d5">区域控制, 油烟补偿</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="奢侈品专区" target="分区阀门控制">
+      <data key="d3">16.0</data>
+      <data key="d4">分区阀门控制在奢侈品专区通过日间恒定95%开度和温控补偿来调节阀门开度。&lt;SEP&gt;奢侈品专区在日间恒定95%开度，并有温控补偿，夜间由独立VRV系统接管。</data>
+      <data key="d5">区域控制, 温控补偿</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="奢侈品专区" target="独立VRV系统">
+      <data key="d3">7.0</data>
+      <data key="d4">独立VRV系统在夜间接管奢侈品专区的温控，确保该区域的恒定温度。</data>
+      <data key="d5">夜间接管, 温控</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="停车场" target="分区阀门控制">
+      <data key="d3">14.0</data>
+      <data key="d4">停车场按CO浓度动态调节阀门开度，在夜间关闭。&lt;SEP&gt;分区阀门控制在停车场通过CO浓度动态调节阀门开度，在夜间关闭。</data>
+      <data key="d5">区域控制, CO浓度调节</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="冷却塔集群优化" target="梯度化启停策略">
+      <data key="d3">7.0</data>
+      <data key="d4">冷却塔集群优化通过梯度化启停策略根据温度和湿度条件调整冷却塔的运行数量和模式。</data>
+      <data key="d5">温度, 湿度, 优化运行</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="冷却塔集群优化" target="智能预测控制">
+      <data key="d3">7.0</data>
+      <data key="d4">冷却塔集群优化通过智能预测控制接入气象API数据，提前2小时预启动系统。</data>
+      <data key="d5">温度预测, 预启动</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="网络安全防护" target="参数修改限制">
+      <data key="d3">8.0</data>
+      <data key="d4">网络安全防护通过限制参数修改为注册工程师白名单，确保只有授权人员可以进行关键操作。</data>
+      <data key="d5">权限管理, 安全性</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="网络安全防护" target="操作日志区块链存证">
+      <data key="d3">8.0</data>
+      <data key="d4">网络安全防护通过操作日志区块链存证确保数据的不可篡改性和安全性。</data>
+      <data key="d5">数据安全, 不可篡改性</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="注册工程师白名单" target="参数修改限制">
+      <data key="d3">8.0</data>
+      <data key="d4">注册工程师白名单限制参数修改权限，确保只有授权人员可以进行关键操作。</data>
+      <data key="d5">权限管理, 安全性</data>
+      <data key="d6">chunk-b97ad92e3bcddc946aedf73c1e1e882d</data>
+    </edge>
+    <edge source="开利公司" target="I- VU系统">
+      <data key="d3">16.0</data>
+      <data key="d4">开利公司开发了I- VU系统，该系统用于提高能源效率和管理空调系统。</data>
+      <data key="d5">技术研发, 能源管理</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="3台19XR机组">
+      <data key="d3">18.0</data>
+      <data key="d4">I- VU系统通过集中群控管理3台19XR机组，实现高效的能源管理和运行。</data>
+      <data key="d5">集中控制, 能源管理</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="4台冷冻水泵">
+      <data key="d3">16.0</data>
+      <data key="d4">I- VU系统通过集中群控管理4台冷冻水泵，确保其高效运行。</data>
+      <data key="d5">集中控制, 设备管理</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="4台冷却水泵">
+      <data key="d3">16.0</data>
+      <data key="d4">I- VU系统通过集中群控管理4台冷却水泵，确保其高效运行。</data>
+      <data key="d5">集中控制, 设备管理</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="9台冷却塔风机">
+      <data key="d3">16.0</data>
+      <data key="d4">I- VU系统通过集中群控管理9台冷却塔风机，确保其高效运行。</data>
+      <data key="d5">集中控制, 设备管理</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="1台免费板换">
+      <data key="d3">14.0</data>
+      <data key="d4">I- VU系统通过集中群控管理1台免费板换，确保其高效运行。</data>
+      <data key="d5">集中控制, 设备管理</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="流量计">
+      <data key="d3">12.0</data>
+      <data key="d4">I- VU系统通过流量计监测流体流量，确保系统的稳定运行。</data>
+      <data key="d5">监测, 数据采集</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="全自动加药装置">
+      <data key="d3">14.0</data>
+      <data key="d4">I- VU系统通过全自动加药装置维护水质，确保系统的稳定运行。</data>
+      <data key="d5">水质管理, 自动化</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="真空脱气罐">
+      <data key="d3">12.0</data>
+      <data key="d4">I- VU系统通过真空脱气罐去除水中的气体，确保系统的稳定运行。</data>
+      <data key="d5">水质管理, 气体去除</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="蓄冷罐">
+      <data key="d3">14.0</data>
+      <data key="d4">I- VU系统通过蓄冷罐储存冷量，确保系统的稳定运行。</data>
+      <data key="d5">能量储存, 稳定运行</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="附属阀门">
+      <data key="d3">12.0</data>
+      <data key="d4">I- VU系统通过附属阀门控制流体流动，确保系统的稳定运行。</data>
+      <data key="d5">流体控制, 系统稳定</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="Chiller SystemManager (CSM)">
+      <data key="d3">18.0</data>
+      <data key="d4">I- VU系统通过Chiller SystemManager (CSM) 控制冷水机组的运行，实现高效的能源管理。</data>
+      <data key="d5">系统控制, 能源管理</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="I- VUM系列控制器及扩展I/O模块">
+      <data key="d3">18.0</data>
+      <data key="d4">I- VU系统通过I- VUM系列控制器及扩展I/O模块管理水泵、冷却塔等设备，实现高效的系统控制。</data>
+      <data key="d5">系统控制, 设备管理</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="温度传感器">
+      <data key="d3">6.0</data>
+      <data key="d4">I- VU系统通过温度传感器监测温度，确保系统的稳定运行。</data>
+      <data key="d5">监测, 数据采集</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="压力传感器">
+      <data key="d3">6.0</data>
+      <data key="d4">I- VU系统通过压力传感器监测压力，确保系统的稳定运行。</data>
+      <data key="d5">监测, 数据采集</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="管道式流量传感器">
+      <data key="d3">6.0</data>
+      <data key="d4">I- VU系统通过管道式流量传感器监测流体流量，确保系统的稳定运行。</data>
+      <data key="d5">监测, 数据采集</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="室外温湿度传感器">
+      <data key="d3">6.0</data>
+      <data key="d4">I- VU系统通过室外温湿度传感器监测室外温湿度，确保系统的稳定运行。</data>
+      <data key="d5">监测, 数据采集</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="液位开关">
+      <data key="d3">6.0</data>
+      <data key="d4">I- VU系统通过液位开关监测液位，确保系统的稳定运行。</data>
+      <data key="d5">监测, 数据采集</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="I- VU系统" target="开关型电动蝶阀">
+      <data key="d3">6.0</data>
+      <data key="d4">I- VU系统通过开关型电动蝶阀控制流体流动，确保系统的稳定运行。</data>
+      <data key="d5">流体控制, 系统稳定</data>
+      <data key="d6">chunk-fa4fce9cd9d6b08fe4997cb122e90361</data>
+    </edge>
+    <edge source="温度传感器" target="冷冻系统">
+      <data key="d3">8.0</data>
+      <data key="d4">温度传感器用于监测冷冻系统的温度，确保系统运行在合适的温度范围内。</data>
+      <data key="d5">监测, 温度控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="温度传感器" target="冷却系统">
+      <data key="d3">8.0</data>
+      <data key="d4">温度传感器用于监测冷却系统的温度，确保系统运行在合适的温度范围内。</data>
+      <data key="d5">监测, 温度控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="温度传感器" target="电动阀门">
+      <data key="d3">7.0</data>
+      <data key="d4">温度传感器的数据用于控制电动阀门的状态，确保系统的温度控制。</data>
+      <data key="d5">温度监测, 阀门控制</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="温度传感器" target="DDC (直接数字控制器)">
+      <data key="d3">9.0</data>
+      <data key="d4">温度传感器的数据被DDC采集并用于控制整个冷却系统的运行。</data>
+      <data key="d5">数据采集, 控制</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="压力传感器" target="冷冻系统">
+      <data key="d3">8.0</data>
+      <data key="d4">压力传感器用于监测冷冻系统的压力，确保系统运行在合适的压力范围内。</data>
+      <data key="d5">监测, 压力控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="压力传感器" target="冷却系统">
+      <data key="d3">8.0</data>
+      <data key="d4">压力传感器用于监测冷却系统的压力，确保系统运行在合适的压力范围内。</data>
+      <data key="d5">监测, 厄力控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="管道式流量传感器" target="冷冻系统">
+      <data key="d3">8.0</data>
+      <data key="d4">管道式流量传感器用于监测冷冻系统的流量，确保系统运行在合适的流量范围内。</data>
+      <data key="d5">监测, 流量控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="管道式流量传感器" target="冷却系统">
+      <data key="d3">8.0</data>
+      <data key="d4">管道式流量传感器用于监测冷却系统的流量，确保系统运行在合适的流量范围内。</data>
+      <data key="d5">监测, 流量控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="室外温湿度传感器" target="自由冷却系统">
+      <data key="d3">7.0</data>
+      <data key="d4">室外温湿度传感器用于监测室外的温度和湿度，为自由冷却系统提供环境数据。</data>
+      <data key="d5">监测, 环境控制</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="CSM冷水机组系统管理模块" target="I-VU 系统">
+      <data key="d3">8.0</data>
+      <data key="d4">CSM冷水机组系统管理模块是I-VU 系统的一部分，专门用于冷水机组的全面监测与管理。</data>
+      <data key="d5">组成部分, 技术应用</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="CSM冷水机组系统管理模块" target="BAS">
+      <data key="d3">7.0</data>
+      <data key="d4">BAS 与CSM冷水机组系统管理模块在冷水机组管理中起着不同的作用，CSM系统提供了更精确和节能的控制方法。</data>
+      <data key="d5">技术对比, 控制策略</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="CSM冷水机组系统管理模块" target="数据中心冷水机组管理">
+      <data key="d3">9.0</data>
+      <data key="d4">CSM冷水机组系统管理模块在数据中心冷水机组管理中提供了更精确和节能的控制方法。</data>
+      <data key="d5">控制方法, 数据中心管理</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="BAS" target="数据中心冷水机组管理">
+      <data key="d3">6.0</data>
+      <data key="d4">BAS 是数据中心冷水机组管理中的一种传统控制方法，通过计算冷量来控制制冷机台数。</data>
+      <data key="d5">控制方法, 数据中心管理</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="风机" target="启停控制">
+      <data key="d3">8.0</data>
+      <data key="d4">风机通过启停控制实现对空气流动的控制。</data>
+      <data key="d5">控制, 启停</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="风机" target="空调系统">
+      <data key="d3">8.0</data>
+      <data key="d4">风机是空调系统中的重要组成部分，其运行状况对系统节能至关重要。</data>
+      <data key="d5">重要组成部分, 系统节能</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="电加热器" target="启停控制">
+      <data key="d3">8.0</data>
+      <data key="d4">电加热器通过启停控制实现对水温的控制。</data>
+      <data key="d5">控制, 启停</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="风门" target="开关控制">
+      <data key="d3">8.0</data>
+      <data key="d4">风门通过开关控制实现对空气流动方向和流量的控制。</data>
+      <data key="d5">控制, 开关</data>
+      <data key="d6">chunk-aebb4896d5049240fb4d356a74d9bd17</data>
+    </edge>
+    <edge source="数据中心" target="中央空调系统">
+      <data key="d3">16.0</data>
+      <data key="d4">数据中心同样需要24小时空调运行，对中央空调系统有较高的依赖性。</data>
+      <data key="d5">持续运行, 关键设施</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="电动阀门" target="DDC (直接数字控制器)">
+      <data key="d3">8.0</data>
+      <data key="d4">电动阀门由DDC控制，确保在断电后仍能维持系统状态。</data>
+      <data key="d5">控制, 状态维持</data>
+      <data key="d6">chunk-40aee537ed39453a6b07ad3197beedbd</data>
+    </edge>
+    <edge source="电动阀门" target="上海某商场">
+      <data key="d3">8.0</data>
+      <data key="d4">上海某商场通过设置多处电动阀门及区域管控措施，实现整个系统的流量均衡和能耗最优化。</data>
+      <data key="d5">流量均衡, 能耗最优化</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="电动阀门" target="中央控制平台">
+      <data key="d3">8.0</data>
+      <data key="d4">中央控制平台通过实时采集电动阀门的运行数据和现场环境指标，自动进行调控策略调整。</data>
+      <data key="d5">实时监控, 自动调控</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="马鑫龙" target="空调系统节能优化研究">
+      <data key="d3">16.0</data>
+      <data key="d4">马鑫龙是进行空调系统节能优化研究的主要研究人员之一。</data>
+      <data key="d5">研究, 专业领域</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="深圳市" target="夏热冬暖地区">
+      <data key="d3">14.0</data>
+      <data key="d4">深圳市位于夏热冬暖地区，该地区的办公建筑能耗主要为空调系统制冷。</data>
+      <data key="d5">地理位置, 能耗特征</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="深圳市" target="伍品">
+      <data key="d3">7.0</data>
+      <data key="d4">伍品基于深圳市27栋非政府办公建筑的能源审计数据，分析了深圳市公共建筑的能耗特性。</data>
+      <data key="d5">研究, 数据来源</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="夏热冬暖地区" target="珠江三角洲">
+      <data key="d3">12.0</data>
+      <data key="d4">夏热冬暖地区包括珠江三角洲，该区域的高层办公建筑数量增长迅猛。</data>
+      <data key="d5">地理范围, 建筑发展</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="夏热冬暖地区" target="王焱国等">
+      <data key="d3">7.0</data>
+      <data key="d4">王焱国等以夏热冬冷地区建筑为基准，结合气候和建筑特点，研究节能改造的可能方向。</data>
+      <data key="d5">研究, 地理气候</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="空调系统节能优化研究" target="磁悬浮机组＋变频冷冻水系统">
+      <data key="d3">18.0</data>
+      <data key="d4">磁悬浮机组＋变频冷冻水系统是空调系统节能优化研究中提出的一种节能优化方案。</data>
+      <data key="d5">技术应用, 节能优化</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="空调系统节能优化研究" target="变流量机组＋变频变流量系统">
+      <data key="d3">18.0</data>
+      <data key="d4">变流量机组＋变频变流量系统是空调系统节能优化研究中提出的一种节能优化方案。</data>
+      <data key="d5">技术应用, 节能优化</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="空调系统节能优化研究" target="Trnsys软件">
+      <data key="d3">16.0</data>
+      <data key="d4">Trnsys软件被用于空调系统节能优化研究中，对提出的两种节能优化方案进行对比分析。</data>
+      <data key="d5">工具应用, 性能分析</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="空调系统节能优化研究" target="王生龙">
+      <data key="d3">8.0</data>
+      <data key="d4">王生龙研究了冷冻水、冷却水变流量系统对定频及变频离心式冷水机组的制冷系数的影响，为节能优化提供依据。</data>
+      <data key="d5">研究, 技术分析</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="空调系统节能优化研究" target="Abo等">
+      <data key="d3">8.0</data>
+      <data key="d4">Abo等通过改变制冷机组的台数进行调节，并提出了相应的节能运行模式，提升了系统性能。</data>
+      <data key="d5">研究, 性能提升</data>
+      <data key="d6">chunk-9d62389e7ba8e10c1c93f2d68140adff</data>
+    </edge>
+    <edge source="变流量机组＋变频变流量系统" target="深圳市某办公建筑">
+      <data key="d3">18.0</data>
+      <data key="d4">The variable flow units with VFD systems are proposed as another retrofitting solution for the air conditioning system in the office building in Shenzhen, leading to even greater energy savings.</data>
+      <data key="d5">energy efficiency, retrofitting</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="Trnsys软件" target="Type200模块">
+      <data key="d3">14.0</data>
+      <data key="d4">Trnsys软件自带的模块与Type200模块链接，用于更准确地模拟磁悬浮冷水机组的运行。</data>
+      <data key="d5">模拟工具, 链接模块</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="该办公建筑" target="中央空调系统">
+      <data key="d3">16.0</data>
+      <data key="d4">该办公建筑的中央空调系统已经运行了10年，存在效率下降和能耗增加的问题。</data>
+      <data key="d5">基础设施, 能耗问题</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="中央空调系统" target="消防控制室">
+      <data key="d3">14.0</data>
+      <data key="d4">消防控制室要求24小时空调运行，是中央空调系统的重要服务对象之一。</data>
+      <data key="d5">持续运行, 重要区域</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="中央空调系统" target="东控制中心">
+      <data key="d3">14.0</data>
+      <data key="d4">东控制中心也要求24小时空调运行，是中央空调系统的重要服务对象之一。</data>
+      <data key="d5">持续运行, 重要区域</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="中央空调系统" target="磁悬浮冷水机组">
+      <data key="d3">18.0</data>
+      <data key="d4">为了提高能效，建议将传统离心式冷水机组替换为磁悬浮冷水机组。</data>
+      <data key="d5">技术升级, 能效提升</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="中央空调系统" target="变频变流量系统">
+      <data key="d3">16.0</data>
+      <data key="d4">变频变流量系统作为另一种节能改造方案，可以进一步提高系统的整体能效。</data>
+      <data key="d5">技术升级, 能效提升</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="中央空调系统" target="彭明嘉">
+      <data key="d3">16.0</data>
+      <data key="d4">彭明嘉使用中央空调系统的实测运行数据来建立磁悬浮冷水机组的数学模型。</data>
+      <data key="d5">数据来源, 研究支持</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="彭明嘉" target="Type200模块">
+      <data key="d3">18.0</data>
+      <data key="d4">彭明嘉利用中央空调系统实测运行数据建立了Type200模块，这是一个磁悬浮冷水机组的数学模型。</data>
+      <data key="d5">研究, 模型建立</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="VS2012" target="Type200模块">
+      <data key="d3">16.0</data>
+      <data key="d4">VS2012被用来编程实现Type200模块，以建立磁悬浮冷水机组的数学模型。</data>
+      <data key="d5">编程工具, 模型实现</data>
+      <data key="d6">chunk-44f0ff68af9f00e9e52e6114fbc9b8d9</data>
+    </edge>
+    <edge source="VS2012" target="Type 200 Magnetic Levitation Chiller Unit">
+      <data key="d3">7.0</data>
+      <data key="d4">The Type 200 Magnetic Levitation Chiller Unit module was programmed using VS2012, which is essential for its integration into the simulation.</data>
+      <data key="d5">programming, integration</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Type200模块" target="磁悬浮冷水机组系统">
+      <data key="d3">8.0</data>
+      <data key="d4">磁悬浮冷水机组系统的动态仿真模型使用了Type200模块进行建模。</data>
+      <data key="d5">建模, 仿真</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="Peng Mingjia" target="Type 200 Magnetic Levitation Chiller Unit">
+      <data key="d3">16.0</data>
+      <data key="d4">Peng Mingjia developed the mathematical model for the Type 200 Magnetic Levitation Chiller Unit, which is a key component in the simulation.</data>
+      <data key="d5">model development, simulation</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Peng Mingjia" target="Magnetic Levitation Chiller Unit Module">
+      <data key="d3">8.0</data>
+      <data key="d4">Peng Mingjia developed the mathematical model for the Magnetic Levitation Chiller Unit Module, which is a key component in the simulation.</data>
+      <data key="d5">model development, simulation</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Type 200 Magnetic Levitation Chiller Unit" target="Trnsys Software">
+      <data key="d3">9.0</data>
+      <data key="d4">The Type 200 Magnetic Levitation Chiller Unit module is linked and integrated into the simulation model using Trnsys Software.</data>
+      <data key="d5">simulation, linkage</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Type 200 Magnetic Levitation Chiller Unit" target="Magnetic Levitation Chiller Unit Module">
+      <data key="d3">14.0</data>
+      <data key="d4">The Type 200 Magnetic Levitation Chiller Unit is a specific instance of the Magnetic Levitation Chiller Unit Module, used in the simulation.</data>
+      <data key="d5">module, specific instance</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Shenzhen" target="Energy Consumption Comparison">
+      <data key="d3">6.0</data>
+      <data key="d4">The energy consumption and cost calculations for the air conditioning systems are based on the electricity pricing system in Shenzhen.</data>
+      <data key="d5">energy cost, location</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Centrifugal Chiller Units" target="Variable Flow Units">
+      <data key="d3">8.0</data>
+      <data key="d4">The Centrifugal Chiller Units and Variable Flow Units are two types of chiller units considered in the optimization schemes, with the latter offering better energy efficiency under partial load conditions.</data>
+      <data key="d5">energy efficiency, comparison</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Variable Flow Units" target="Variable Frequency Pump Control Module">
+      <data key="d3">18.0</data>
+      <data key="d4">The Variable Flow Units are enhanced with the Variable Frequency Pump Control Module to improve the energy efficiency of the chilled water system.</data>
+      <data key="d5">energy efficiency, control</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Energy Consumption Comparison" target="Air Conditioning System Optimization">
+      <data key="d3">9.0</data>
+      <data key="d4">The Energy Consumption Comparison is a critical part of the Air Conditioning System Optimization process, helping to identify the most efficient system configuration.</data>
+      <data key="d5">optimization, analysis</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Energy Consumption Comparison" target="Electricity Pricing System">
+      <data key="d3">14.0</data>
+      <data key="d4">The Energy Consumption Comparison takes into account the Electricity Pricing System of Shenzhen to calculate the operational costs of the air conditioning systems.</data>
+      <data key="d5">cost calculation, pricing system</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Energy Consumption Comparison" target="Simulation Model">
+      <data key="d3">18.0</data>
+      <data key="d4">The Simulation Model is used to perform the Energy Consumption Comparison, providing data on the energy usage of different system configurations.</data>
+      <data key="d5">simulation, comparison</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Energy Consumption Comparison" target="Chilled Water Pumps">
+      <data key="d3">12.0</data>
+      <data key="d4">The Chilled Water Pumps are one of the components whose energy consumption is analyzed as part of the Energy Consumption Comparison.</data>
+      <data key="d5">component, energy analysis</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Energy Consumption Comparison" target="Cooling Water Pumps">
+      <data key="d3">12.0</data>
+      <data key="d4">The Cooling Water Pumps are one of the components whose energy consumption is analyzed as part of the Energy Consumption Comparison.</data>
+      <data key="d5">component, energy analysis</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Air Conditioning System Optimization" target="Energy Efficiency Improvement">
+      <data key="d3">16.0</data>
+      <data key="d4">The Air Conditioning System Optimization process aims to achieve Energy Efficiency Improvement by implementing various modifications and analyzing their impact.</data>
+      <data key="d5">optimization, improvement</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Energy Efficiency Improvement" target="Optimization Scheme 1">
+      <data key="d3">8.0</data>
+      <data key="d4">Energy Efficiency Improvement is the goal of Optimization Scheme 1, which uses magnetic levitation chiller units to reduce energy consumption.</data>
+      <data key="d5">goal, efficiency improvement</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Energy Efficiency Improvement" target="Optimization Scheme 2">
+      <data key="d3">8.0</data>
+      <data key="d4">Energy Efficiency Improvement is the goal of Optimization Scheme 2, which uses variable flow units and variable frequency pumps to reduce energy consumption.</data>
+      <data key="d5">goal, efficiency improvement</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Shenzhen Office Building" target="Initial System">
+      <data key="d3">7.0</data>
+      <data key="d4">The Shenzhen Office Building is the location where the Initial System is installed and the optimization schemes are being tested.</data>
+      <data key="d5">location, system installation</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Initial System" target="Optimization Scheme 1">
+      <data key="d3">8.0</data>
+      <data key="d4">Optimization Scheme 1 is a modification of the Initial System, involving the use of magnetic levitation chiller units to improve energy efficiency.</data>
+      <data key="d5">modification, optimization</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Initial System" target="Optimization Scheme 2">
+      <data key="d3">8.0</data>
+      <data key="d4">Optimization Scheme 2 is a modification of the Initial System, involving the use of variable flow units and variable frequency pumps to improve energy efficiency.</data>
+      <data key="d5">modification, optimization</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Optimization Scheme 1" target="Energy Consumption Analysis">
+      <data key="d3">9.0</data>
+      <data key="d4">Optimization Scheme 1 is analyzed in the Energy Consumption Analysis to determine its energy efficiency compared to other configurations.</data>
+      <data key="d5">analysis, efficiency comparison</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="Optimization Scheme 2" target="Energy Consumption Analysis">
+      <data key="d3">9.0</data>
+      <data key="d4">Optimization Scheme 2 is analyzed in the Energy Consumption Analysis to determine its energy efficiency compared to other configurations.</data>
+      <data key="d5">analysis, efficiency comparison</data>
+      <data key="d6">chunk-e38540161aa9ace341c5b8676a92a0f7</data>
+    </edge>
+    <edge source="深圳市某办公建筑" target="磁悬浮机组">
+      <data key="d3">16.0</data>
+      <data key="d4">The magnetic levitation units are proposed as a retrofitting solution for the air conditioning system in the office building in Shenzhen, leading to significant energy savings.</data>
+      <data key="d5">energy efficiency, retrofitting</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="深圳市某办公建筑" target="初始空调系统">
+      <data key="d3">8.0</data>
+      <data key="d4">深圳市某办公建筑的冷负荷变化情况是通过初始空调系统的模拟来展示的。</data>
+      <data key="d5">模拟, 冷负荷变化</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="TRNSYS软件" target="空调系统节能改造">
+      <data key="d3">14.0</data>
+      <data key="d4">TRNSYS software is used to simulate and analyze the energy-saving potential of the proposed retrofitting schemes for the air conditioning system.</data>
+      <data key="d5">simulation, analysis</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="TRNSYS软件" target="磁悬浮冷水机组系统">
+      <data key="d3">8.0</data>
+      <data key="d4">磁悬浮冷水机组系统的动态仿真模型是基于TRNSYS软件建立的。</data>
+      <data key="d5">建模, 仿真</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="TRNSYS软件" target="变流量机组、变频变流量系统">
+      <data key="d3">8.0</data>
+      <data key="d4">变流量机组、变频变流量系统的动态仿真模型是基于TRNSYS软件建立的。</data>
+      <data key="d5">建模, 仿真</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="初始系统" target="方案一">
+      <data key="d3">9.0</data>
+      <data key="d4">Retrofitting scheme one, involving magnetic levitation units, is compared to the initial system to evaluate its energy-saving potential and cost-effectiveness.</data>
+      <data key="d5">comparison, energy savings</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="初始系统" target="方案二">
+      <data key="d3">9.0</data>
+      <data key="d4">Retrofitting scheme two, involving variable flow units with VFD systems, is compared to the initial system to evaluate its energy-saving potential and cost-effectiveness.</data>
+      <data key="d5">comparison, energy savings</data>
+      <data key="d6">chunk-d07b7063310bfaeb945be1d1b31d5443</data>
+    </edge>
+    <edge source="方案一" target="初始空调系统">
+      <data key="d3">7.0</data>
+      <data key="d4">方案一是对初始空调系统的优化，旨在降低能耗。</data>
+      <data key="d5">优化, 能耗降低</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="方案一" target="磁悬浮冷水机组系统">
+      <data key="d3">8.0</data>
+      <data key="d4">方案一中采用了磁悬浮冷水机组系统，展示了其逐时能耗变化情况。</data>
+      <data key="d5">采用, 能耗变化</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="方案二" target="初始空调系统">
+      <data key="d3">7.0</data>
+      <data key="d4">方案二是对初始空调系统的另一种优化，也旨在降低能耗。</data>
+      <data key="d5">优化, 能耗降低</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="方案二" target="变流量机组、变频变流量系统">
+      <data key="d3">8.0</data>
+      <data key="d4">方案二中采用了变流量机组和变频变流量系统，展示了其逐时能耗变化情况。</data>
+      <data key="d5">采用, 能耗变化</data>
+      <data key="d6">chunk-1a113684a6ca3711f6e25748c3445987</data>
+    </edge>
+    <edge source="赵伟" target="深圳市华阳国际工程设计股份有限公司">
+      <data key="d3">10.0</data>
+      <data key="d4">赵伟是深圳市华阳国际工程设计股份有限公司的员工，担任高级工程师职位。</data>
+      <data key="d5">employment, affiliation</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="赵伟" target="医院建筑暖通空调节能改造设计方法">
+      <data key="d3">9.0</data>
+      <data key="d4">赵伟是该文章的主要作者，探讨了医院建筑暖通空调系统的节能改造方法。</data>
+      <data key="d5">authorship, research focus</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="赵伟" target="医院建筑">
+      <data key="d3">8.0</data>
+      <data key="d4">赵伟的研究重点之一是医院建筑的暖通空调系统节能改造。</data>
+      <data key="d5">research focus, application area</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="赵伟" target="暖通空调系统">
+      <data key="d3">9.0</data>
+      <data key="d4">赵伟探讨了暖通空调系统的节能改造方法和技术要点。</data>
+      <data key="d5">research focus, system analysis</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="深圳市华阳国际工程设计股份有限公司" target="医院建筑暖通空调节能改造设计方法">
+      <data key="d3">7.0</data>
+      <data key="d4">深圳市华阳国际工程设计股份有限公司支持或参与了关于医院建筑暖通空调节能改造的研究工作。</data>
+      <data key="d5">corporate support, research involvement</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="深圳市华阳国际工程设计股份有限公司" target="医院建筑">
+      <data key="d3">7.0</data>
+      <data key="d4">深圳市华阳国际工程设计股份有限公司参与了医院建筑的设计和研究工作。</data>
+      <data key="d5">corporate involvement, project scope</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="医院建筑" target="暖通空调系统">
+      <data key="d3">17.0</data>
+      <data key="d4">医院建筑中的暖通空调系统是本文讨论的主要对象，涉及其节能改造和优化设计。&lt;SEP&gt;暖通空调系统在医院建筑中的应用有特殊要求，需要进行节能环保的设计。</data>
+      <data key="d5">system integration, building feature&lt;SEP&gt;建筑设计, 节能环保</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7&lt;SEP&gt;chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="医院建筑" target="节能环保">
+      <data key="d3">8.0</data>
+      <data key="d4">医院建筑的设计和运行需要遵循节能环保的理念，以减少能源消耗和环境污染。</data>
+      <data key="d5">design principle, environmental impact</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="暖通空调系统" target="节能环保">
+      <data key="d3">9.0</data>
+      <data key="d4">暖通空调系统的节能改造旨在减少能源消耗和环境污染，符合节能环保的理念。</data>
+      <data key="d5">energy efficiency, environmental protection</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="暖通空调系统" target="低碳原则">
+      <data key="d3">8.0</data>
+      <data key="d4">暖通空调系统的设计应遵循低碳原则，以减少能源消耗和污染物排放。</data>
+      <data key="d5">design principle, energy efficiency</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="暖通空调系统" target="协调设计原则">
+      <data key="d3">8.0</data>
+      <data key="d4">暖通空调系统的设计需要遵循协调设计原则，确保各子系统之间的协调性和整体系统的可靠性。</data>
+      <data key="d5">design principle, system reliability</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="暖通空调系统" target="可循环原则">
+      <data key="d3">8.0</data>
+      <data key="d4">暖通空调系统的设计应遵循可循环原则，探索资源的可循环利用路径，提高资源利用效率。</data>
+      <data key="d5">design principle, resource utilization</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="暖通空调系统" target="能耗分析">
+      <data key="d3">9.0</data>
+      <data key="d4">对暖通空调系统进行能耗分析，评估其在节能改造前后的能源消耗情况。</data>
+      <data key="d5">energy assessment, performance evaluation</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="暖通空调系统" target="技术要点">
+      <data key="d3">9.0</data>
+      <data key="d4">在暖通空调系统的节能改造中，需要关注关键的技术要点，以确保改造效果。</data>
+      <data key="d5">technical focus, implementation strategy</data>
+      <data key="d6">chunk-034463a73507742397608ab9fd7f07c7</data>
+    </edge>
+    <edge source="暖通空调系统" target="某医院">
+      <data key="d3">9.0</data>
+      <data key="d4">某医院的暖通空调系统数量增加，用能结构复杂，能耗显著增加，需要进行节能改造。</data>
+      <data key="d5">能源管理, 节能改造</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="暖通空调系统" target="门诊楼">
+      <data key="d3">8.0</data>
+      <data key="d4">门诊楼的暖通空调系统进行了节能改造，包括水泵变频控制等措施。</data>
+      <data key="d5">节能改造, 系统优化</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="暖通空调系统" target="水泵变频控制改造设计">
+      <data key="d3">9.0</data>
+      <data key="d4">水泵变频控制改造设计是针对暖通空调系统的节能改造措施，通过动态调节水泵流量来提高能效。</data>
+      <data key="d5">节能改造, 动态调节</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="暖通空调系统" target="定风量全空气系统">
+      <data key="d3">7.0</data>
+      <data key="d4">定风量全空气系统是暖通空调系统的一部分，用于调节空间内的正压与洁净度。</data>
+      <data key="d5">系统组成, 调节作用</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="暖通空调系统" target="分水器">
+      <data key="d3">6.0</data>
+      <data key="d4">分水器是暖通空调系统中的设备，用于分配冷冻水和热水。</data>
+      <data key="d5">系统组成, 水分配</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="暖通空调系统" target="板式换热器">
+      <data key="d3">5.0</data>
+      <data key="d4">板式换热器是暖通空调系统中的设备，用于热交换。</data>
+      <data key="d5">系统组成, 热交换</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="暖通空调系统" target="防腐漆">
+      <data key="d3">5.0</data>
+      <data key="d4">防腐漆涂刷在暖通空调系统的防护结构上，以减少热量损失。</data>
+      <data key="d5">系统优化, 热量损失减少</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="暖通空调系统" target="石棉绳和玻璃纤维布">
+      <data key="d3">4.0</data>
+      <data key="d4">石棉绳和玻璃纤维布作为保护层材料，用于减少暖通空调系统的热量损失。</data>
+      <data key="d5">系统优化, 保护层材料</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="暖通空调系统" target="小型燃气锅炉">
+      <data key="d3">13.0</data>
+      <data key="d4">小型燃气锅炉在非供暖季独立设置，用于满足特定负荷需求，提高暖通空调系统的能效。&lt;SEP&gt;小型燃气锅炉是暖通空调系统中的一种设备，在非供暖季可以实现节能降耗的效果。</data>
+      <data key="d5">系统优化, 能效提升&lt;SEP&gt;节能, 设备优化</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91&lt;SEP&gt;chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="暖通空调系统" target="冷却水水面">
+      <data key="d3">7.0</data>
+      <data key="d4">冷却水水面是暖通空调系统中的一个部分，其敞开式形式会导致杂质堆积，影响系统性能。</data>
+      <data key="d5">系统维护, 性能优化</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="暖通空调系统" target="工作人员">
+      <data key="d3">8.0</data>
+      <data key="d4">工作人员负责评估和优化暖通空调系统的运行状况，以提高其能效。</data>
+      <data key="d5">系统评估, 优化</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="某医院" target="燃气锅炉">
+      <data key="d3">8.0</data>
+      <data key="d4">某医院使用燃气锅炉作为内部供暖热源，提供医用蒸汽和生活热水。</data>
+      <data key="d5">供暖, 设施管理</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="气候补偿器系统">
+      <data key="d3">7.0</data>
+      <data key="d4">某医院提出增设气候补偿器系统的节能改造方案，以降低供暖系统的能源消耗量。</data>
+      <data key="d5">节能改造, 精准调控</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="舒适性空调系统">
+      <data key="d3">6.0</data>
+      <data key="d4">某医院配置了舒适性空调系统，用于调节非手术房间及楼内公共区域的空气。</data>
+      <data key="d5">空调系统, 环境控制</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="手术室洁净空调系统">
+      <data key="d3">7.0</data>
+      <data key="d4">某医院配置了手术室洁净空调系统，用于调节手术室的环境，确保其正压与洁净度。</data>
+      <data key="d5">空调系统, 手术环境控制</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="行政办公楼">
+      <data key="d3">6.0</data>
+      <data key="d4">行政办公楼是某医院的一部分，用于行政管理和日常办公。</data>
+      <data key="d5">管理, 办公</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="住院病房">
+      <data key="d3">7.0</data>
+      <data key="d4">住院病房是某医院的一部分，用于患者的住院治疗和康复。</data>
+      <data key="d5">医疗, 康复</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="大型医疗设备">
+      <data key="d3">8.0</data>
+      <data key="d4">某医院配备了大型医疗设备，这些设备对暖通空调系统的功能稳定性有较高要求。</data>
+      <data key="d5">医疗设备, 稳定性</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="信息数据机房">
+      <data key="d3">7.0</data>
+      <data key="d4">某医院的信息数据机房对暖通空调系统的功能稳定性有较高要求。</data>
+      <data key="d5">数据管理, 稳定性</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="循环水泵">
+      <data key="d3">6.0</data>
+      <data key="d4">某医院的供暖系统中共设置了12台循环水泵，但均未配置变频控制装置。</data>
+      <data key="d5">供暖, 设施管理</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="新风机组">
+      <data key="d3">6.0</data>
+      <data key="d4">某医院的舒适性空调系统中，新风机组是关键设施，提供新风送风功能。</data>
+      <data key="d5">空调系统, 新风送风</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="某医院" target="风机盘管">
+      <data key="d3">6.0</data>
+      <data key="d4">某医院的舒适性空调系统中，风机盘管安装在各房间，可单独控制各房间的空气调节。</data>
+      <data key="d5">空调系统, 空气调节</data>
+      <data key="d6">chunk-02f20d06f176a3f9a2663a0bf0d14088</data>
+    </edge>
+    <edge source="水泵变频控制改造设计" target="温差控制方式">
+      <data key="d3">8.0</data>
+      <data key="d4">温差控制方式是水泵变频控制改造设计中的一种具体方法，通过监测温度差来调节水泵流量。</data>
+      <data key="d5">节能方法, 温度监测</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="水泵变频控制改造设计" target="压差控制方式">
+      <data key="d3">7.0</data>
+      <data key="d4">压差控制方式是水泵变频控制改造设计中的一种具体方法，通过监测压差值来调节水泵流量。</data>
+      <data key="d5">节能方法, 压差监测</data>
+      <data key="d6">chunk-85dfc81383f83f79b3fae137930bda91</data>
+    </edge>
+    <edge source="小型燃气锅炉" target="非供暖季">
+      <data key="d3">7.0</data>
+      <data key="d4">在非供暖季设置小型燃气锅炉可以适应该阶段的负荷，达到节能降耗的效果。</data>
+      <data key="d5">季节性优化, 节能</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="冷却水水面" target="冷机组冷凝器">
+      <data key="d3">9.0</data>
+      <data key="d4">冷机组冷凝器的正常运行依赖于冷却水水面的清洁度，杂质堆积会影响其性能。</data>
+      <data key="d5">设备维护, 性能保障</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="卞海峰" target="绿色建筑暖通空调节能设计研究">
+      <data key="d3">8.0</data>
+      <data key="d4">卞海峰进行了绿色建筑暖通空调节能设计的研究，并发表了相关论文。</data>
+      <data key="d5">研究, 发表</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="李天天" target="暖通供热工程中的节能技术分析">
+      <data key="d3">8.0</data>
+      <data key="d4">李天天进行了暖通供热工程中的节能技术分析，并发表了相关论文。</data>
+      <data key="d5">研究, 发表</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="汪靖超" target="暖通空调节能设计分析">
+      <data key="d3">9.0</data>
+      <data key="d4">汪靖超与郭丽双、李洪合作进行了暖通空调节能设计的研究，并发表了相关论文。</data>
+      <data key="d5">研究, 合作</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="郭丽双" target="暖通空调节能设计分析">
+      <data key="d3">9.0</data>
+      <data key="d4">郭丽双与汪靖超、李洪合作进行了暖通空调节能设计的研究，并发表了相关论文。</data>
+      <data key="d5">研究, 合作</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="李洪" target="暖通空调节能设计分析">
+      <data key="d3">9.0</data>
+      <data key="d4">李洪与汪靖超、郭丽双合作进行了暖通空调节能设计的研究，并发表了相关论文。</data>
+      <data key="d5">研究, 合作</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="崔冰冰" target="暖通空调工程管理和暖通节能技术分析">
+      <data key="d3">8.0</data>
+      <data key="d4">崔冰冰进行了暖通空调工程管理和节能技术的研究，并发表了相关论文。</data>
+      <data key="d5">研究, 发表</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="绿色建筑暖通空调节能设计研究" target="房地产世界">
+      <data key="d3">7.0</data>
+      <data key="d4">房地产世界期刊发表了关于绿色建筑暖通空调节能设计研究的论文。</data>
+      <data key="d5">发表, 传播</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="暖通供热工程中的节能技术分析" target="集成电路应用">
+      <data key="d3">7.0</data>
+      <data key="d4">集成电路应用期刊发表了关于暖通供热工程中的节能技术分析的论文。</data>
+      <data key="d5">发表, 传播</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="暖通空调节能设计分析" target="工程建设与设计">
+      <data key="d3">8.0</data>
+      <data key="d4">工程建设与设计期刊发表了关于暖通空调节能设计分析的多篇论文。</data>
+      <data key="d5">发表, 传播</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="暖通空调工程管理和暖通节能技术分析" target="工程建设与设计">
+      <data key="d3">8.0</data>
+      <data key="d4">工程建设与设计期刊发表了关于暖通空调工程管理和节能技术分析的论文。</data>
+      <data key="d5">发表, 传播</data>
+      <data key="d6">chunk-245517d8773c7e7944e9ce44a05b45fb</data>
+    </edge>
+    <edge source="核心办公区" target="辅助区域">
+      <data key="d3">8.0</data>
+      <data key="d4">核心办公区与辅助区域设置不同的温度目标，通过区域性电动阀实现差异化控制。</data>
+      <data key="d5">差异化控制, 温度管理</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="冷却泵" target="冷冻泵">
+      <data key="d3">6.0</data>
+      <data key="d4">冷却泵与冷冻泵均采用变频器控制，根据供回水温差和系统压力自动调节运行频率，保证流量平衡。</data>
+      <data key="d5">流量平衡, 变频控制</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="冷却泵" target="上海某商场">
+      <data key="d3">7.0</data>
+      <data key="d4">上海某商场通过动态调整冷却泵的频率，确保水流平衡与设备高效运行。</data>
+      <data key="d5">动态调整, 高效运行</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="冷却泵" target="中央控制平台">
+      <data key="d3">7.0</data>
+      <data key="d4">中央控制平台通过实时采集冷却泵的运行数据和现场环境指标，自动进行调控策略调整。</data>
+      <data key="d5">实时监控, 自动调控</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="冷冻泵" target="上海某商场">
+      <data key="d3">6.0</data>
+      <data key="d4">上海某商场通过自动调节冷冻泵的频率，保持最小供水压力，保障全局流量均衡。</data>
+      <data key="d5">自动调节, 流量均衡</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="冷冻泵" target="中央控制平台">
+      <data key="d3">7.0</data>
+      <data key="d4">中央控制平台通过实时采集冷冻泵的运行数据和现场环境指标，自动进行调控策略调整。</data>
+      <data key="d5">实时监控, 自动调控</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="自诊断模块" target="中央平台">
+      <data key="d3">9.0</data>
+      <data key="d4">自诊断模块通过中央平台进行实时监测、报警和记录异常数据，为维护提供决策支持。</data>
+      <data key="d5">故障监测, 集中管理</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="中央平台" target="本地PLC控制模式">
+      <data key="d3">8.0</data>
+      <data key="d4">中央平台支持远程监控与集中管理，在发生网络故障或异常情况时，可迅速切换至本地PLC控制模式，保障设备稳定运行。</data>
+      <data key="d5">远程监控, 本地控制</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="工作时段" target="预测启停控制">
+      <data key="d3">8.0</data>
+      <data key="d4">工作时段内采用预测启停控制，结合实时数据提前调整制冷/制热负荷。</data>
+      <data key="d5">时间管理, 预测控制</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="工作时段" target="动态负载平衡">
+      <data key="d3">7.0</data>
+      <data key="d4">工作时段内实施动态负载平衡，确保各设备按实时需求自动启停。</data>
+      <data key="d5">时间管理, 负载平衡</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="工作时段" target="精细分区管理">
+      <data key="d3">6.0</data>
+      <data key="d4">工作时段内实施精细分区管理，对不同区域设置不同的温度目标。</data>
+      <data key="d5">时间管理, 分区控制</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="非工作时段" target="低负荷运行模式">
+      <data key="d3">7.0</data>
+      <data key="d4">非工作时段采用低负荷运行模式，维持基础环境。</data>
+      <data key="d5">时间管理, 低负荷运行</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="非工作时段" target="预冷/预热策略">
+      <data key="d3">8.0</data>
+      <data key="d4">非工作时段采用预冷/预热策略，逐步恢复工作时段温度。</data>
+      <data key="d5">时间管理, 预冷预热</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="负荷预测模型" target="智能加减载策略">
+      <data key="d3">9.0</data>
+      <data key="d4">负荷预测模型用于指导智能加减载策略，根据预测负荷自动调节设备运行台数。</data>
+      <data key="d5">预测控制, 负载管理</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="变频调控" target="智能故障监测">
+      <data key="d3">8.0</data>
+      <data key="d4">变频调控与智能故障监测结合，确保设备在最优状态下运行，及时发现并处理故障。</data>
+      <data key="d5">故障监测, 变频控制</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="能耗动态监控" target="预测性维护">
+      <data key="d3">7.0</data>
+      <data key="d4">能耗动态监控为预测性维护提供数据支持，帮助提前安排巡检与维护。</data>
+      <data key="d5">能耗管理, 维护预测</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="智能调度与环境保护" target="应急预案与本地控制">
+      <data key="d3">8.0</data>
+      <data key="d4">智能调度与环境保护策略包括应急预案与本地控制，确保设备在异常情况下稳定运行。</data>
+      <data key="d5">调度策略, 应急预案</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="应急预案与本地控制" target="应急断流措施">
+      <data key="d3">9.0</data>
+      <data key="d4">应急预案与本地控制包括应急断流措施，确保在局部系统异常时的安全运行。</data>
+      <data key="d5">应急预案, 安全措施</data>
+      <data key="d6">chunk-f0f61fbc7cd4abbdb2aa92606ab772f6</data>
+    </edge>
+    <edge source="上海某商场" target="中央控制平台">
+      <data key="d3">8.0</data>
+      <data key="d4">上海某商场通过中央控制平台实现对空调系统的远程监控和自动调控。</data>
+      <data key="d5">远程监控, 自动调控</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="上海某商场" target="空调主机">
+      <data key="d3">9.0</data>
+      <data key="d4">上海某商场采用智能调控策略管理空调主机，确保全年不同季节及商场内客流变化时的室内环境舒适与能耗优化。</data>
+      <data key="d5">智能调控, 能耗优化</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="上海某商场" target="主通道及中庭区域">
+      <data key="d3">7.0</data>
+      <data key="d4">上海某商场在主通道及中庭区域通过电动阀门开度设定来调节空调负荷，确保主要区域的空调负荷充足。</data>
+      <data key="d5">区域调节, 空调负荷</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="上海某商场" target="辅助及边缘区域">
+      <data key="d3">6.0</data>
+      <data key="d4">上海某商场在辅助及边缘区域根据实时温湿度及人流监控数据自动调节电动阀门开度，实现区域温度均衡。</data>
+      <data key="d5">实时调节, 温度均衡</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="中央控制平台" target="PLC 本地控制模式">
+      <data key="d3">6.0</data>
+      <data key="d4">中央控制平台支持在必要时切换到PLC本地控制模式，以确保系统的稳定运行。</data>
+      <data key="d5">应急切换, 系统稳定性</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="中央控制平台" target="安全模式">
+      <data key="d3">7.0</data>
+      <data key="d4">中央控制平台在检测到系统异常时会自动切换到安全模式，同时启动报警。</data>
+      <data key="d5">故障响应, 安全保障</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="中央控制平台" target="空调主机">
+      <data key="d3">8.0</data>
+      <data key="d4">中央控制平台通过实时采集空调主机的运行数据和现场环境指标，自动进行调控策略调整。</data>
+      <data key="d5">实时监控, 自动调控</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="中央控制平台" target="主通道及中庭区域">
+      <data key="d3">7.0</data>
+      <data key="d4">中央控制平台通过实时采集主通道及中庭区域的运行数据和现场环境指标，自动进行调控策略调整。</data>
+      <data key="d5">实时监控, 自动调控</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="中央控制平台" target="辅助及边缘区域">
+      <data key="d3">7.0</data>
+      <data key="d4">中央控制平台通过实时采集辅助及边缘区域的运行数据和现场环境指标，自动进行调控策略调整。</data>
+      <data key="d5">实时监控, 自动调控</data>
+      <data key="d6">chunk-2512d61bcbcf02c76ee8a8e9a2b8562d</data>
+    </edge>
+    <edge source="Fong K.F." target="中央空调">
+      <data key="d3">9.0</data>
+      <data key="d4">Fong K.F. 指出从定流量定频空调系统改造为变流量变频空调系统后能够实现很好的节能效果。</data>
+      <data key="d5">研究, 节能</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="GB/T18430.1—2007" target="Air Conditioning System Efficiency Analysis">
+      <data key="d3">8.0</data>
+      <data key="d4">GB/T18430.1—2007 provides the weighted factors for evaluating the efficiency of the air conditioning system under different load conditions.</data>
+      <data key="d5">standard, evaluation criteria</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="GB/T18430.1—2007" target="Comprehensive Energy Efficiency Analysis">
+      <data key="d3">16.0</data>
+      <data key="d4">GB/T18430.1—2007 provides the weighted factors for evaluating the efficiency of the air conditioning system under different load conditions.</data>
+      <data key="d5">standard, evaluation criteria</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="空调系统" target="变频离心式冷水机组">
+      <data key="d3">9.0</data>
+      <data key="d4">变频离心式冷水机组是空调系统中的一种高效冷水机组，适用于全年综合节能需求。</data>
+      <data key="d5">高效组件, 综合节能</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="空调系统" target="定频离心式冷水机组">
+      <data key="d3">7.0</data>
+      <data key="d4">定频离心式冷水机组是空调系统中的一种传统冷水机组，其能效较低。</data>
+      <data key="d5">传统组件, 低能效</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="空调系统" target="变流量系统">
+      <data key="d3">9.0</data>
+      <data key="d4">变流量系统是通过改变冷冻水或冷却水的流量来实现节能效果的空调系统。</data>
+      <data key="d5">节能策略, 流量变化</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="空调系统" target="定流量系统">
+      <data key="d3">7.0</data>
+      <data key="d4">定流量系统是冷冻水或冷却水的流量保持恒定的空调系统，相对于变流量系统，其能效较低。</data>
+      <data key="d5">传统策略, 低能效</data>
+      <data key="d6">chunk-2fe2dd1f0790dfa30c2aea2a87c653b5</data>
+    </edge>
+    <edge source="变频离心式冷水机组" target="节能特性研究">
+      <data key="d3">16.0</data>
+      <data key="d4">变频离心式冷水机组在节能特性研究中表现出更高的COP，推荐使用。</data>
+      <data key="d5">能效, 研究成果</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="变频离心式冷水机组" target="定频机组">
+      <data key="d3">14.0</data>
+      <data key="d4">变频离心式冷水机组相比定频机组在某些系统中的COP更高，更值得推荐。</data>
+      <data key="d5">能效, 对比分析</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="变频离心式冷水机组" target="变冷冻水流量系统">
+      <data key="d3">16.0</data>
+      <data key="d4">变频离心式冷水机组在变冷冻水流量系统中表现出更高的效率。</data>
+      <data key="d5">能效, 系统配置</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="变频离心式冷水机组" target="定温差变冷却水流量系统">
+      <data key="d3">18.0</data>
+      <data key="d4">变频离心式冷水机组在定温差变冷却水流量系统中表现出更高的COP。</data>
+      <data key="d5">能效, 系统配置</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="变频离心式冷水机组" target="定流量、全定频设备的空调系统">
+      <data key="d3">14.0</data>
+      <data key="d4">定流量、全定频设备的空调系统相比变频离心式冷水机组的综合效率较低。</data>
+      <data key="d5">能效, 对比分析</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="GB/T 18430.1—2007" target="Variable Chilled Water Flow System">
+      <data key="d3">8.0</data>
+      <data key="d4">The Variable Chilled Water Flow System is analyzed based on the operating conditions specified in GB/T 18430.1—2007.</data>
+      <data key="d5">standard compliance, operational analysis</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="GB/T 18430.1—2007" target="Constant Chilled Water Flow System">
+      <data key="d3">8.0</data>
+      <data key="d4">The Constant Chilled Water Flow System is also analyzed based on the operating conditions specified in GB/T 18430.1—2007, providing a basis for comparison.</data>
+      <data key="d5">standard compliance, operational analysis</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="GB/T 18430.1—2007" target="Cooling Water Inlet Temperature">
+      <data key="d3">8.0</data>
+      <data key="d4">The Cooling Water Inlet Temperature is adjusted according to the load, as specified in the standard GB/T 18430.1—2007.</data>
+      <data key="d5">standard compliance, temperature control</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Variable Chilled Water Flow System" target="COP Curve">
+      <data key="d3">9.0</data>
+      <data key="d4">The COP Curve shows the efficiency of the centrifugal chiller under the Variable Chilled Water Flow System, demonstrating better performance at partial loads.</data>
+      <data key="d5">efficiency, performance comparison</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Variable Chilled Water Flow System" target="Chilled Water Outlet Temperature">
+      <data key="d3">9.0</data>
+      <data key="d4">The Chilled Water Outlet Temperature is kept constant in the Variable Chilled Water Flow System, ensuring consistent cooling.</data>
+      <data key="d5">temperature control, consistency</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Variable Chilled Water Flow System" target="Minimum Flow Rate">
+      <data key="d3">8.0</data>
+      <data key="d4">The Minimum Flow Rate is maintained in the Variable Chilled Water Flow System to ensure adequate heat transfer and prevent laminar flow.</data>
+      <data key="d5">flow control, efficiency</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Constant Chilled Water Flow System" target="COP Curve">
+      <data key="d3">9.0</data>
+      <data key="d4">The COP Curve also shows the efficiency of the centrifugal chiller under the Constant Chilled Water Flow System, indicating similar performance to the variable flow system.</data>
+      <data key="d5">efficiency, performance comparison</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Constant Chilled Water Flow System" target="Chilled Water Outlet Temperature">
+      <data key="d3">9.0</data>
+      <data key="d4">The Chilled Water Outlet Temperature is also kept constant in the Constant Chilled Water Flow System, ensuring consistent cooling.</data>
+      <data key="d5">temperature control, consistency</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Constant Chilled Water Flow System" target="Minimum Flow Rate">
+      <data key="d3">8.0</data>
+      <data key="d4">The Minimum Flow Rate is maintained in the Constant Chilled Water Flow System to ensure adequate heat transfer and prevent laminar flow.</data>
+      <data key="d5">flow control, efficiency</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Centrifugal Chiller" target="COP Curve">
+      <data key="d3">10.0</data>
+      <data key="d4">The COP Curve is used to analyze the efficiency of the Centrifugal Chiller under different operating conditions, showing how efficiency changes with load.</data>
+      <data key="d5">efficiency, performance analysis</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Centrifugal Chiller" target="Variable Frequency Drive (VFD)">
+      <data key="d3">9.0</data>
+      <data key="d4">The Variable Frequency Drive (VFD) is used in the Centrifugal Chiller to adjust the compressor speed, improving energy efficiency at partial loads.</data>
+      <data key="d5">energy efficiency, performance</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Centrifugal Chiller" target="Guide Vane">
+      <data key="d3">8.0</data>
+      <data key="d4">The Guide Vane is used in the Centrifugal Chiller to regulate energy by adjusting the flow of refrigerant, which is less efficient than using a VFD.</data>
+      <data key="d5">energy regulation, performance</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Temperature Sensor" target="Controller">
+      <data key="d3">9.0</data>
+      <data key="d4">The Temperature Sensor provides temperature data to the Controller, which uses this information to control the pump speed and flow rate.</data>
+      <data key="d5">data transmission, control</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Controller" target="Pump">
+      <data key="d3">9.0</data>
+      <data key="d4">The Controller adjusts the Pump's speed based on the temperature difference to maintain the target temperature difference.</data>
+      <data key="d5">control, regulation</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Heat Exchanger" target="Evaporator">
+      <data key="d3">9.0</data>
+      <data key="d4">The Heat Exchanger, specifically the Evaporator, is where the refrigerant absorbs heat from the chilled water, cooling it down.</data>
+      <data key="d5">heat transfer, cooling</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Heat Exchanger" target="Condenser">
+      <data key="d3">9.0</data>
+      <data key="d4">The Heat Exchanger, specifically the Condenser, is where the refrigerant releases heat to the cooling water, condensing it back into a liquid.</data>
+      <data key="d5">heat transfer, condensation</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Heat Exchanger" target="Turbulent Flow">
+      <data key="d3">9.0</data>
+      <data key="d4">Turbulent Flow in the Heat Exchanger enhances heat transfer, making it more efficient for cooling.</data>
+      <data key="d5">flow type, efficiency</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="Heat Exchanger" target="Laminar Flow">
+      <data key="d3">8.0</data>
+      <data key="d4">Laminar Flow in the Heat Exchanger reduces heat transfer, making it less efficient for cooling.</data>
+      <data key="d5">flow type, efficiency</data>
+      <data key="d6">chunk-54dd3c0d57b4c069f7977ed94bfcd123</data>
+    </edge>
+    <edge source="W Company" target="Cooling Water Pump Model IL250/370-75/4">
+      <data key="d3">27.0</data>
+      <data key="d4">W Company manufactures the Cooling Water Pump Model IL250/370-75/4, which is used in the energy efficiency analysis.</data>
+      <data key="d5">manufacturer, technology</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="W Company" target="Chilled Water Pump Model 250/380-75/4">
+      <data key="d3">27.0</data>
+      <data key="d4">W Company manufactures the Chilled Water Pump Model 250/380-75/4, which is used in the energy efficiency analysis.</data>
+      <data key="d5">manufacturer, technology</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Cooling Water Pump Model IL250/370-75/4" target="Pump Energy Consumption Analysis">
+      <data key="d3">16.0</data>
+      <data key="d4">The Cooling Water Pump Model IL250/370-75/4 is one of the pumps analyzed for energy consumption under different loads.</data>
+      <data key="d5">technology, analysis</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Chilled Water Pump Model 250/380-75/4" target="Pump Energy Consumption Analysis">
+      <data key="d3">16.0</data>
+      <data key="d4">The Chilled Water Pump Model 250/380-75/4 is one of the pumps analyzed for energy consumption under different loads.</data>
+      <data key="d5">technology, analysis</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Variable Frequency Drive (VFD) Chillers" target="Constant Frequency Chillers">
+      <data key="d3">16.0</data>
+      <data key="d4">VFD chillers are compared with constant frequency chillers to evaluate their energy efficiency under different load conditions.</data>
+      <data key="d5">comparison, energy efficiency</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Variable Frequency Drive (VFD) Chillers" target="Air Conditioning System">
+      <data key="d3">18.0</data>
+      <data key="d4">VFD chillers are a part of the air conditioning system and contribute to its overall energy efficiency.</data>
+      <data key="d5">component, system performance</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Constant Frequency Chillers" target="Air Conditioning System">
+      <data key="d3">16.0</data>
+      <data key="d4">Constant frequency chillers are a part of the air conditioning system and serve as a baseline for comparing energy efficiency.</data>
+      <data key="d5">component, system performance</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Air Conditioning System" target="Fixed Temperature Difference Control Method">
+      <data key="d3">8.0</data>
+      <data key="d4">The Fixed Temperature Difference Control Method is applied to the Air Conditioning System to evaluate its impact on energy efficiency.</data>
+      <data key="d5">control method, application</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Air Conditioning System" target="Variable Flow Rate Control Method">
+      <data key="d3">8.0</data>
+      <data key="d4">The Variable Flow Rate Control Method is applied to the Air Conditioning System to evaluate its impact on energy efficiency.</data>
+      <data key="d5">control method, application</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Air Conditioning System" target="Fixed Cooling Water Outlet Temperature Control Method">
+      <data key="d3">8.0</data>
+      <data key="d4">The Fixed Cooling Water Outlet Temperature Control Method is applied to the Air Conditioning System to evaluate its impact on energy efficiency.</data>
+      <data key="d5">control method, application</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Pump Energy Consumption Analysis" target="Comprehensive Energy Efficiency Analysis">
+      <data key="d3">16.0</data>
+      <data key="d4">The pump energy consumption analysis is a part of the comprehensive energy efficiency analysis of the air conditioning system.</data>
+      <data key="d5">sub-event, comprehensive analysis</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Fixed Temperature Difference Control Method" target="Variable Flow Rate Control Method">
+      <data key="d3">7.0</data>
+      <data key="d4">The Fixed Temperature Difference Control Method is compared with the Variable Flow Rate Control Method to evaluate their respective impacts on energy efficiency.</data>
+      <data key="d5">control method, comparison</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Variable Flow Rate Control Method" target="Fixed Cooling Water Outlet Temperature Control Method">
+      <data key="d3">7.0</data>
+      <data key="d4">The Fixed Cooling Water Outlet Temperature Control Method is compared with the Variable Flow Rate Control Method to evaluate their respective impacts on energy efficiency.</data>
+      <data key="d5">control method, comparison</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="Part Load Conditions" target="Full Load Conditions">
+      <data key="d3">8.0</data>
+      <data key="d4">Part Load Conditions are compared with Full Load Conditions to evaluate the energy efficiency of the air conditioning system under different operating scenarios.</data>
+      <data key="d5">operating conditions, comparison</data>
+      <data key="d6">chunk-7b1d50fee345705b93253fde5f13a1a0</data>
+    </edge>
+    <edge source="磁悬浮离心式冷水机组" target="某地区数据中心">
+      <data key="d3">18.0</data>
+      <data key="d4">磁悬浮离心式冷水机组适用于低环境温度的数据中心，提供稳定的冷量和精确的温湿度控制。</data>
+      <data key="d5">适用性, 性能优势</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="磁悬浮离心式冷水机组" target="低环境温度下的应用对比分析">
+      <data key="d3">16.0</data>
+      <data key="d4">磁悬浮离心式冷水机组在低环境温度下的应用对比分析中表现出独特的优势。</data>
+      <data key="d5">性能优势, 适用性</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="磁悬浮离心式冷水机组" target="自然冷却">
+      <data key="d3">16.0</data>
+      <data key="d4">磁悬浮离心式冷水机组在低环境温度下的自然冷却应用中表现出独特的优势。</data>
+      <data key="d5">性能优势, 适用性</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="变冷冻水流量系统" target="全变频设备配置">
+      <data key="d3">20.0</data>
+      <data key="d4">全变频设备配置与变冷冻水流量系统结合可以获得最高的系统综合效率。</data>
+      <data key="d5">能效, 系统配置</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="定温差变冷却水流量系统" target="全变频设备配置">
+      <data key="d3">20.0</data>
+      <data key="d4">全变频设备配置与定温差变冷却水流量系统结合可以获得最高的系统综合效率。</data>
+      <data key="d5">能效, 系统配置</data>
+      <data key="d6">chunk-2c126f299311d72ed6fa4ddc8275e777</data>
+    </edge>
+    <edge source="台州某医院" target="控制面板">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板位于台州某医院的暖通空调制冷机房内，用于监控和管理整个系统的运行状态。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="1号冷却塔">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示1号冷却塔的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="2号冷却塔">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示2号冷却塔的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="3号冷却塔">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示3号冷却塔的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="4号冷却塔">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示4号冷却塔的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="5号冷却塔">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示5号冷却塔的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="6号冷却塔">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示6号冷却塔的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="7号冷却塔">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示7号冷却塔的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="1号制冷机组">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示1号制冷机组的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="2号制冷机组">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示2号制冷机组的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="3号制冷机组">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示3号制冷机组的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="4号制冷机组">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示4号制冷机组的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="5号制冷机组">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示5号制冷机组的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="6号制冷机组">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示6号制冷机组的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="7号制冷机组">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示7号制冷机组的冷却水温度等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="A冷却水泵">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示A冷却水泵的冷却水压力等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+    <edge source="控制面板" target="B冷却水泵">
+      <data key="d3">8.0</data>
+      <data key="d4">控制面板显示B冷却水泵的冷却水压力等参数，并对其进行监控和管理。</data>
+      <data key="d5">监控, 管理</data>
+      <data key="d6">chunk-4f8bd2ec9f7d1b629577f9e8fca59461</data>
+    </edge>
+  </graph>
+</graphml>
